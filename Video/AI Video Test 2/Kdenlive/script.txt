@@ -3,6 +3,10 @@ YV1: Yellow Viper (primary)
 YV2: Yellow Viper (secondary)
 TS1: Tigerstone (3D model)
 TS2: Tigerstone (Pale Caucasian 1)
+TS3: Tigerstone (12 yrs)
 CB1: Cobra
 CB2: Cobra alt 1
+
+
+
 
