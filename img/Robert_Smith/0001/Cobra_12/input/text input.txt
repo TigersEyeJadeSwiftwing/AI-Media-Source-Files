@@ -1,0 +1,10 @@
+Cobra, 12 years old
+
+Cobra.png <-- Cobra's face
+SN12.png <-- Sage Northcutt at 12 years old, for shirtless muscular 12-year-old body
+
+Text Prompt (Hedra), first image:
+A teenage boy who looks exactly like the person in the reference image "Cobra.png", but has the body of the person in the other reference image called "SN12.png".  His entire face and body has a pale Caucasian skin color.  He is shirtless.  He is wearing long black nylon athletic basketball shorts.
+
+Text Prompt (Hedra), second image:
+A teenage boy who looks exactly like the person in the reference image "Cobra.png", but has the body of the person in the other reference image called "SN12.png".  He is 12 years old.  His face and all facial features match that of the person in the reference image "Cobra.png" except that he is 12 years old.  His entire face and body has a pale Caucasian skin color.  He is shirtless.  He is wearing long black nylon athletic basketball shorts.  The background is a junior-high school gymnasium with bright lighting.
