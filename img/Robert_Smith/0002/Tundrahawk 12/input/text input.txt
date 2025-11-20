@@ -3,8 +3,58 @@ Tundrahawk, 12 years old
 Tundrahawk.png <-- Copper Fox's face
 SN12b.png <-- Sage Northcutt's body at 12 years old, for shirtless muscular 12-year-old body
 
-Text Prompt (Hedra), first image:
-A teenage boy who looks exactly like the person in the reference image "Tundrahawk.png", but has the body of the person in the other reference image called "SN12b.png".  He is 12 years old.  His face and all facial features match that of the person in the reference image "Tundrahawk.png" except that he is 12 years old.  He has a long uppercut hair style with no sides, with golden blond hair.  He has golden blond eyebrows.  He has vivid deep blue eyes.  His entire face and body has a very bright pale Caucasian white skin color.  He has strong, well-defined muscles.  He has a skinny, narrow body.  He is shirtless.  He is wearing long black nylon athletic basketball shorts.  The background is a junior-high school gymnasium with bright cool white lighting.
+Text Prompt (Hedra), first attempted image:
+A teenage boy who looks exactly like the person in the reference image "Tundrahawk.png", but has the body of the person in the other reference image called "SN12b.png".  He is 12 years old.  His face and all facial features match that of the person in the reference image "Tundrahawk.png" except that he is 12 years old.  He has a blond heavy metal uppercut hairstyle, shaved sides, long straight hair on top flowing down past chest, combed sideways, with straight hair that has no waves or curls.  He has blond eyebrows.  He has vivid deep blue eyes.  His entire face and body has a very bright pale Caucasian white skin color.  He has strong, well-defined muscles.  He has a skinny, narrow body.  He is shirtless.  He is wearing long black nylon athletic basketball shorts.  The background is a junior-high school gymnasium with bright cool white lighting.
+
+Text Prompt (Hedra), second attempt at first image:
+A teenage boy who looks exactly like the person in the reference image "Tundrahawk.png", but has the body of the person in the other reference image called "SN12b.png".  He is 12 years old.  His face and all facial features match that of the person in the reference image "Tundrahawk.png" except that he is 12 years old.  He has a blond heavy metal undercut hairstyle, shaved sides, long straight hair on top flowing down past chest, combed sideways, with straight hair that has no waves or curls.  He has blond eyebrows.  He has vivid deep blue eyes.  His entire face and body has a very bright pale Caucasian white skin color.  He has strong, well-defined muscles.  He has a skinny, narrow body.  He is shirtless.  He is wearing long black nylon athletic basketball shorts.  The background is a junior-high school gymnasium with bright cool white lighting.
+
+
+Notes:
+I first tried "uppercut" to try to describe the hair style I wanted Hedra to render, and then I uploaded a 3D model of a guy with what I wanted, and then updated the text input prompt.  Here is a copy of the conversation with Copilot, which I asked for help with how to describe the hair style:
+
+**Direct Answer:** The hairstyle you’re describing is most commonly referred to as a **“long undercut”** or **“shaved sides with long top”**. For image-generation AI, you’ll want to use terms like **“long straight hair undercut, shaved sides and back, long top combed to one side”** rather than “uppercut,” which isn’t recognized as a hairstyle keyword.  
+
+---
+
+### 🔑 Why “Uppercut” Doesn’t Work
+- “Uppercut” is not a standard hairstyle term—it’s more often associated with boxing.  
+- Hairstyle terminology in AI models tends to rely on widely used salon/barber terms like **undercut, side shave, mohawk, long top, asymmetrical cut**.  
+
+### 🧑‍🎤 Correct Terminology for Your Style
+The look you’re describing—long hair flowing from the crown/top, shaved or very short sides/back, often swept dramatically to one side—is usually categorized as:
+- **Undercut with long top**  
+- **Side-shaved long hair**  
+- **Asymmetrical long undercut**  
+- **Metalhead undercut hairstyle**  
+
+Jason Newsted’s 1980s/1990s look fits into this family, though his version was wavy. The straight-haired version you showed in your 3D model is closer to a **“straight long undercut with side sweep.”**
+
+### 📝 How to Phrase It for Image Generation
+To maximize clarity and reproducibility, try prompts like:
+- *“Male character with long straight hair undercut, shaved sides and back, long top reaching waist, hair swept across front to one side.”*  
+- *“Heavy metal hairstyle, shaved sides, long straight hair on top flowing down past chest, combed sideways.”*  
+- *“Punk/metal undercut with waist-length straight hair, shaved sides, dramatic side sweep.”*  
+
+### 🎸 Subculture Context
+This style is strongly associated with:
+- **Metal and punk scenes** (especially thrash and glam metal in the 80s–90s).  
+- **Alternative youth fashion** in suburban rock/metal communities.  
+- Sometimes referred to informally as a **“metal undercut”** or **“rocker undercut.”**
+
+### ✅ Practical Prompting Tips
+- Always specify **“straight” vs. “wavy”** to avoid AI defaulting to curls.  
+- Include **length markers** (“waist-length,” “chest-length”) for precision.  
+- Add **styling direction** (“swept to left side across chest”) to capture the asymmetry.  
+- If you want gender flexibility, you can phrase it as *“androgynous rocker hairstyle”* or *“male/female punk undercut with long straight hair.”*
+
+---
+
+**In short:** Replace “uppercut” with **“long undercut”** or **“shaved sides with long straight top”** in your prompts. That phrasing is widely recognized and will give the AI the right structure to reproduce the hairstyle you want.  
+
+Would you like me to draft a **template prompt** you can reuse across different characters (male/female, different colors, lighting setups) so you get consistent results?
+
+
 
 
 
