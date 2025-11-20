@@ -9,9 +9,16 @@ A teenage boy who looks exactly like the person in the reference image "Tundraha
 Text Prompt (Hedra), second attempt at first image:
 A teenage boy who looks exactly like the person in the reference image "Tundrahawk.png", but has the body of the person in the other reference image called "SN12b.png".  He is 12 years old.  His face and all facial features match that of the person in the reference image "Tundrahawk.png" except that he is 12 years old.  He has a blond heavy metal undercut hairstyle, shaved sides, long straight hair on top flowing down past chest, combed sideways, with straight hair that has no waves or curls.  He has blond eyebrows.  He has vivid deep blue eyes.  His entire face and body has a very bright pale Caucasian white skin color.  He has strong, well-defined muscles.  He has a skinny, narrow body.  He is shirtless.  He is wearing long black nylon athletic basketball shorts.  The background is a junior-high school gymnasium with bright cool white lighting.
 
+Text Prompt (Hedra), one of several further attempts at first image:
+A teenage boy who looks exactly like the person in the reference image "Tundrahawk", but has the body of the person in the other reference image called "SN12b".  He is 12 years old.  His face and all facial features match that of the person in the reference image "Tundrahawk" except that he is 12 years old.  He has vivid deep blue eyes.  His entire face and body has a very bright pale Caucasian white skin color.  He has blond hair and blond eyebrows.  He has strong, well-defined muscles.  He has a skinny, narrow body.  He is shirtless.  He is wearing long black nylon athletic basketball shorts.  The background is a junior high school gymnasium with bright cool white lighting.
+
 
 Notes:
 I first tried "uppercut" to try to describe the hair style I wanted Hedra to render, and then I uploaded a 3D model of a guy with what I wanted, and then updated the text input prompt.  Here is a copy of the conversation with Copilot, which I asked for help with how to describe the hair style:
+
+Copilot Text I entered, with "TS long uppercut.jpg" attached as reference image to Copilot:
+Hi, I'm trying to describe a specific hair style to an image-generation AI program, and I'm not sure what to call it or refer to it by so that the AI gets the right understanding of what I'm talking about.  I'm trying to describe a male gender, and sometimes female gender, type of hair style that is sometimes popular among teenagers and youths who live in white suburbs of the USA who are into metal, heavy metal, punk metal, and other types of rock music and so on, where in this case the hair grows straight and without any curls or waves, and is grown very long from the top of the head and hangs down to the waist, yet on the sides and back of the head it is either very short or shaved.  In this case, as in the 3D model image of a young guy provided, the hair is combed to one side as it hangs down across the front of his body and off to one side, as it is in the image.  I've heard of this type of hair style being called an "uppercut", and I know that a former bass guitar player of Metallica named Jason Newsted at one time had a long uppercut during parts of the 1980s and 1990s, although his hair was wavy instead of straight, and this was before he later cut his hair short for the "Load" and "Reload" albums.  Nevertheless, when I use the word "uppercut" with the image generation AI, it doesn't recognize the term as it is when referring to a hair style, and craps out with an error message.  What do you think I should try instead, to call this hair style as it is in the image I provided?  How should I describe it?
+
 
 **Direct Answer:** The hairstyle you’re describing is most commonly referred to as a **“long undercut”** or **“shaved sides with long top”**. For image-generation AI, you’ll want to use terms like **“long straight hair undercut, shaved sides and back, long top combed to one side”** rather than “uppercut,” which isn’t recognized as a hairstyle keyword.  
 
@@ -55,6 +62,9 @@ This style is strongly associated with:
 Would you like me to draft a **template prompt** you can reuse across different characters (male/female, different colors, lighting setups) so you get consistent results?
 
 
+
+Further notes:
+I still get the error message.  A screen shot of it is in the "Hedra error" folder.  I'm not hiding anything, and no one is demanding anything in any telepathic visual render or audio anything at all, and as far as I can tell I'm cooperating with the things that I've been asked and demanded to do by various entities, and no one is saying I'm not doing what they want or anything with any part of the text prompt, reference images, or hair style or clothing style or skin tone/color or anything else I'm trying to get Hedra to create, so I really don't know what gives.  I'm stumped, totally lost here.  Unless it's something technical, I guess maybe there's some hint I'm not getting or understanding or something.  I don't get it.
 
 
 
