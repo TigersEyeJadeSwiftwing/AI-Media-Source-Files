@@ -1,0 +1,106 @@
+Unused:
+Arctic Hawk
+Carnivore
+Fang River
+Gloryspring
+Grandfield
+High Warrior
+Iron Fang
+Iron Shade
+Mountain Wind
+Rainstone
+Regal
+Spring Grass
+Steel Tundra
+Thunderclaw
+Thunderhawk
+Tornado
+Wind Fang
+
+
+
+
+
+Red		Gold		Morning		Deep		Thunder		Wood		War		Fox		Serpent		Cloud		Feast
+Orange		Silver		Evening		Tall		Wind		Ash		Battle		Wolf		Snake		Hill		Hunt
+Yellow		Copper		Night		Long		Ice		Dirt		Fight		Coyote		Cobra		Mountain	Hunting
+Green		Bronze		Summer		High		Fire		Rock		Fighter		Wolverine	Viper		Swamp		Harvest
+Blue		Iron		Spring		Far		Snow		Stone		Warrior						Tundra		Fest
+Indigo		Metal		Autumn		Straight	Chill		Water		Soldier						River		Day
+Violet		Steel		Winter		Sharp		Cool		Air		Killer						Lake
+Purple		Chrome		Fall		Deft		Hot		Sand		Cleaver		Cat				Ocean
+Grey				Dawn		Hard		Freeze		Quartz		Cutter		Panther				Field
+White				Dusk		Heavy		Breeze		Glass		Crash		Ocelot				Grass
+Black						Strong		Flaming		Crystal		Glory		Bobcat				Sky
+		Sword				Swift		Blazing		Slate		Victory						Desert
+		Blade				Quick		Blaze		Shale		Vanquish					Plains
+		Axe		Regal		Fast		Burn		Flint		Kill						Forest
+		Hilt		Majestic	Flash		Scorch		Sandstone	Slay						Land
+				Wise		Flight		Shadow		Granite		Slayer						Arctic
+Hand				Brave				Shade		Concrete	King						Beach
+Foot				Grand				Bright		Diamond				Bird				Shore
+Palm				Great				Glow		Pearl				Hawk
+Eye								Rain		Jade				Eagle
+Fang								Frost		Sapphire			Vulture
+Claw								Clear		Emerald				Buzzard
+Leg								Mist		Ruby				Shrike
+Arm										Jetstone			Warbird
+Talon										Jasper				Raven
+Feather
+Wing
+Skin
+Flesh
+-
+-
+-
+-
+-
+Master:
+Arctic Hawk
+Arctic Snow
+Blood Storm
+Blue Ice
+Carnivore
+Cloud Fighter
+Cobra
+Copper Fox
+Defthand
+Desert Sand
+Fang River
+Firewalker
+Glass Snake
+Gloryspring
+Golden Sword
+Grandfield
+High Warrior
+Ice Hawk
+Iron Fang
+Iron Shade
+Mountain Wind
+Purple Mountain
+Quickfighter
+Rainstone
+Raptor
+Regal
+Shotgun
+Snake
+Spring Grass
+Steel Tundra
+Summer Wind
+Thunderclaw
+Thunderhawk
+Tornado
+Tundrahawk
+Tyro
+Warrior
+White Fire
+Whitethorn
+Wind Fang
+Winter Coyote
+Winter Day
+Wolf
+Yellow Viper
+
+
+
+
