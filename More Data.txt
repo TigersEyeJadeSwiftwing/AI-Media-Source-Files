@@ -1,24 +1,22 @@
+The first link given for each of the "Data Files" is usually a link for a folder/directory called "Files", which contains everything.  The other links for each "Data Files", if valid, are temporary, and will at some point have their contents end up in the first folder/directory named "Files".
+
 Data Files 1 (Primary):
-https://drive.google.com/drive/folders/1Fpii3DfAqZCI5TfhUbvWje8jUQv1xgMk?usp=sharing
-https://drive.google.com/drive/folders/1Zji1tXrBadVaLOXG1A8hCE7JdFZE8WHO?usp=sharing
-https://drive.google.com/drive/folders/1gp1BFJC_qix43iF0kEikyBYui4gv_WFc?usp=sharing
-https://drive.google.com/drive/folders/1CUU0X3l_h7fsr9bvA8nI_4YLXu0NFjDK?usp=sharing
-https://drive.google.com/drive/folders/1pxqGxSuwk3EMXn4vwaPXwNXFzWbQKt2i?usp=sharing
-https://drive.google.com/drive/folders/1FteMXFTUL7J2VNPdwjYIbaj7U3m2SDCP?usp=sharing
-https://drive.google.com/file/d/1w3QRa60Wjsr-Wg1HuUZwGS9t_Et1EpRo/view?usp=sharing
-https://drive.google.com/file/d/1A0HlbLnchF6krPrK6TA71i0iAwGC1uQw/view?usp=sharing
+https://drive.google.com/drive/folders/1mrmiaRe5ypTL1poyxDHfo_R8IKFzdw6-?usp=sharing
+
 
 Data Files 2 (001):
-https://drive.google.com/drive/folders/1s3d0BG5sExDxRv9iNWxKcIfg1PGhJMoa?usp=sharing
-https://drive.google.com/drive/folders/1cOsymzhOELyNsImFH6M57laR787awJdA?usp=sharing
-https://docs.google.com/document/d/1nTGHj5GV1UHvbvLPiF0G5V92h-3IejTogR_h85VdZrg/edit?usp=sharing
+https://drive.google.com/drive/folders/1hIcYmzZjE49ja8IWSivrPnbNhGd9_jfa?usp=sharing
+https://drive.google.com/drive/folders/1s3d0BG5sExDxRv9iNWxKcIfg1PGhJMoa?usp=drive_link
+
 
 Data Files 3 (002):
+https://drive.google.com/drive/folders/1OfNc0X475dt6c7O21lulbEQtBOsBFm8F?usp=sharing
 https://drive.google.com/drive/folders/1MiKz1Rhb6m_4tqhjP17TJraIVr57mQam?usp=drive_link
 https://drive.google.com/drive/folders/1ud6ps-pSWvR8MwsCd_R8Pesb-loPe7tD?usp=drive_link
 
-Data Files 4 (Tony):
-https://drive.google.com/drive/folders/1HDw2dRNVzAwoahlAlv5D3zF7_ZSCwKUl?usp=drive_link
 
+Data Files 4 (Tony):
+https://drive.google.com/drive/folders/1_2pnSKqag47kjD8bHGYX6Pm0VAYiN3qP?usp=sharing
+https://drive.google.com/drive/folders/1HDw2dRNVzAwoahlAlv5D3zF7_ZSCwKUl?usp=drive_link
 
 
