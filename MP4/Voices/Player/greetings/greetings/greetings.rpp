@@ -1,0 +1,834 @@
+<REAPER_PROJECT 0.1 "4.78/x64" 1758018050
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 1
+  ENVATTACH 1
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0
+  MAXPROJLEN 0 600
+  GRID 3199 8 1 8 1 0 0
+  TIMEMODE 1 5 -1 30 0
+  PANMODE 3
+  CURSOR 127.5
+  ZOOM 140.75532579319983 16811 0
+  VZOOMEX 6
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "" ""
+  <RECORD_CFG
+    ZXZhd0AD
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE "C:\Video Editing\Voices\Player\greetings\Hey 0.mp3"
+  RENDER_FMT 0 1 0
+  RENDER_1X 0
+  RENDER_RANGE 2 0 0
+  RENDER_RESAMPLE 8 3 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 0
+  DEFPITCHMODE 1
+  TAKELANE 1
+  SAMPLERATE 48000 1 0
+  <RENDER_CFG
+    bDNwbUABAAABAAAA//////////8EAAAAQAEAAAAAAAA=
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 127.5 125.5
+  SELECTION2 127.5 125.5
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 -1 -1 -1
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 0 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    ACT 0
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    ACT 1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  <PROJBAY
+  >
+  <TRACK {EE80A91E-0D25-4459-8B79-14D7E743867E}
+    NAME "Raw 0"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 2.81838293126445 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 1
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {EE80A91E-0D25-4459-8B79-14D7E743867E}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 1
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {ABEF4E33-3F31-4730-844C-474816C48306}
+      IID 1
+      NAME "Raw 0.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.73350456634578
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C826DC10-C050-4341-9648-E31F2C81DAEF}
+      <SOURCE MP3
+        FILE "Raw 0.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 1.5
+      SNAPOFFS 0
+      LENGTH 1
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {176BCF05-A5BB-4A25-A323-ADFFF32B1E73}
+      IID 1
+      NAME "Raw 0.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 3.38175480975653
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {74B8CC31-BF9A-4379-AC88-4BD863F67751}
+      <SOURCE MP3
+        FILE "Raw 0.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 3
+      SNAPOFFS 0
+      LENGTH 2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {A98550AB-906C-418C-AF5F-5964DCB5C4B3}
+      IID 1
+      NAME "Raw 0.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {68E05EAB-5112-4E16-ADB0-029FAB6A7EEF}
+      <SOURCE MP3
+        FILE "Raw 0.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 5.5
+      SNAPOFFS 0
+      LENGTH 2.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {8D80BD45-582B-42A8-8BC7-D107B5EC6531}
+      IID 1
+      NAME "Raw 0.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 7.64099436753505
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BAF32227-8983-4FC0-BD82-06B490C02546}
+      <SOURCE MP3
+        FILE "Raw 0.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 8.5
+      SNAPOFFS 0
+      LENGTH 2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {817580FB-888F-4F9A-932B-F8AB9E5A8649}
+      IID 1
+      NAME "Raw 0.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 10.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {459FE69F-D530-461D-8EDE-5A71C9443FAE}
+      <SOURCE MP3
+        FILE "Raw 0.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 11
+      SNAPOFFS 0
+      LENGTH 3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {0D652375-C77A-4241-98CB-69A647262A3A}
+      IID 1
+      NAME "Raw 0.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 13.27836079713225
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B80A875C-ADDA-4336-9D5A-9610366C39CA}
+      <SOURCE MP3
+        FILE "Raw 0.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 14.5
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {9F3888DE-F74F-4BF0-BB60-AA5A29961B7F}
+      IID 1
+      NAME "Raw 0.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 16.77836079713225
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7729C2C5-A04A-4449-B4FA-AB3F2679285F}
+      <SOURCE MP3
+        FILE "Raw 0.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 16.5
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {C86B80AD-6EBF-480A-B573-034684AE3542}
+      IID 1
+      NAME "Raw 0.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 18.77836079713225
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B6211442-FF55-4087-ABBB-0B7495DB3A38}
+      <SOURCE MP3
+        FILE "Raw 0.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 18.5
+      SNAPOFFS 0
+      LENGTH 3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {80E5DAB3-85C2-44F0-B29B-B13BB88F8E67}
+      IID 1
+      NAME "Raw 0.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 20.27836079713225
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4B79D80F-764C-4DB7-B701-280772ECED38}
+      <SOURCE MP3
+        FILE "Raw 0.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 22
+      SNAPOFFS 0
+      LENGTH 2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {B789E5F1-6CF6-492F-BA7F-C669E6DDB6FB}
+      IID 1
+      NAME "Raw 0.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 23.50836079713223
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0C9B6654-124B-4BF3-A140-9FB6DC947656}
+      <SOURCE MP3
+        FILE "Raw 0.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 24.5
+      SNAPOFFS 0
+      LENGTH 2.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {F7AF7218-66AC-4F18-9E80-8612BDC12658}
+      IID 1
+      NAME "Raw 0.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 25.57836079713223
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7798521A-928D-47ED-B041-5D18719FF416}
+      <SOURCE MP3
+        FILE "Raw 0.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 27.5
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {EC13585E-6BE2-4536-80B9-54389BE6BDC3}
+      IID 1
+      NAME "Raw 0.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 34.47028511884573
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {420D47E3-64F7-48A4-9570-C16E97A9D31A}
+      <SOURCE MP3
+        FILE "Raw 0.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 29.5
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {9A6DE788-A288-48DC-A5BD-117CAEE62904}
+      IID 1
+      NAME "Raw 0.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 36.07836079713223
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A8DEB8A0-AEC0-4CA6-BBC2-1664AF78BC93}
+      <SOURCE MP3
+        FILE "Raw 0.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 31.5
+      SNAPOFFS 0
+      LENGTH 1.85901221298825
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {16D28BB2-7284-4090-97EF-B6AAD5C4CFE9}
+      IID 1
+      NAME "Raw 0.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 37.89804246402833
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1912BB42-78FC-45CE-9DEA-7AD8408B693F}
+      <SOURCE MP3
+        FILE "Raw 0.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 34
+      SNAPOFFS 0
+      LENGTH 2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {C43E8A07-845F-4360-B873-7BAFCAD6DBBB}
+      IID 1
+      NAME "Raw 0.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 39.7841638296572
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C190B631-9AA1-40F0-A2DB-2327706F5FDC}
+      <SOURCE MP3
+        FILE "Raw 0.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 36.5
+      SNAPOFFS 0
+      LENGTH 3.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {1C7FBD51-B3A4-42E9-9C9E-E21A2BE4BEF5}
+      IID 1
+      NAME "Raw 0.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 43.96459700571522
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {311F9FB0-07F3-40D5-BF13-B22961269610}
+      <SOURCE MP3
+        FILE "Raw 0.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 40.5
+      SNAPOFFS 0
+      LENGTH 3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {05BD1A5E-41EA-4761-B26D-2348C74051EE}
+      IID 1
+      NAME "Raw 0.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 47.57836079713223
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B1345C00-DAE6-4C50-AC98-32E24AEE62D0}
+      <SOURCE MP3
+        FILE "Raw 0.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 44
+      SNAPOFFS 0
+      LENGTH 3.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {83FF78E4-72C1-4291-9076-07A50011749C}
+      IID 1
+      NAME "Raw 0.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 50.84753243700267
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F4CE15B0-1D2C-4694-9718-2F394B444ED1}
+      <SOURCE MP3
+        FILE "Raw 0.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 48
+      SNAPOFFS 0
+      LENGTH 4.31875459733219
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {660B897E-271E-4339-A2AD-0DB6893CB396}
+      IID 1
+      NAME "Raw 0.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 54.70613992434119
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9FE8B3ED-8F5A-416B-A204-795148683ED6}
+      <SOURCE MP3
+        FILE "Raw 0.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 53
+      SNAPOFFS 0
+      LENGTH 3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D139F496-56AA-40F1-AB40-16604A891413}
+      IID 1
+      NAME "Raw 0.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 59.05657882534612
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {28523B62-D91F-4847-9B30-40B5A69D368B}
+      <SOURCE MP3
+        FILE "Raw 0.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 56.5
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {4B8EDB92-8D99-4BF3-95DD-70D720D64DE2}
+      IID 1
+      NAME "Raw 0.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 62.30657743769096
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {850ADC7B-01A6-4EDD-858D-1155732DECB7}
+      <SOURCE MP3
+        FILE "Raw 0.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 58.5
+      SNAPOFFS 0
+      LENGTH 0.80841793460014
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {BFADA84F-3BD4-4089-B858-15D6913DC574}
+      IID 1
+      NAME "Raw 0.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 63.90301956539985
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {01C8FAE5-F041-4533-B0BA-5F2BF797215C}
+      <SOURCE MP3
+        FILE "Raw 0.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 60
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {E75CF6E8-99BD-4942-B0C1-84934C99A2AF}
+      IID 2
+      NAME "Raw 1.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A6923C44-9157-43E4-B16D-A52F5E415D4F}
+      <SOURCE MP3
+        FILE "Raw 1.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 62
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {4977927E-61A0-43DA-89C0-53070B0A0938}
+      IID 2
+      NAME "Raw 1.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EE77FFE5-D10F-4791-A728-FF1E26E6305B}
+      <SOURCE MP3
+        FILE "Raw 1.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 69
+      SNAPOFFS 0
+      LENGTH 18.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {AC31DBC5-9759-4EEA-BCBC-0AB5919E3A05}
+      IID 2
+      NAME "Raw 1.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 3
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5B53E13D-8149-4542-8B88-C52D22F92C0D}
+      <SOURCE MP3
+        FILE "Raw 1.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 88
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {E643BFF6-F732-4030-85D8-A226D88639FA}
+      IID 2
+      NAME "Raw 1.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 21.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9510CEF8-A628-4234-A966-9F064D4FC774}
+      <SOURCE MP3
+        FILE "Raw 1.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 92
+      SNAPOFFS 0
+      LENGTH 5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {A9CADBBD-0BAD-4F46-BD0A-BC4FE5461816}
+      IID 2
+      NAME "Raw 1.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 23
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DD61ABED-D8A7-4B19-BCEE-2894B4DD662C}
+      <SOURCE MP3
+        FILE "Raw 1.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 97.5
+      SNAPOFFS 0
+      LENGTH 2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {AF1D44F8-D013-434F-B9AA-6F8A27997D9D}
+      IID 2
+      NAME "Raw 1.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 28.19091527333586
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5CE1AEBD-C14D-4B94-B257-998E570FE952}
+      <SOURCE MP3
+        FILE "Raw 1.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 100.5
+      SNAPOFFS 0
+      LENGTH 9
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {72DCDDA4-F28F-4B9B-9F3D-F3324011DB4E}
+      IID 2
+      NAME "Raw 1.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 30.19091527333586
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B675BFA2-512F-43E5-995B-6DA75315F7B3}
+      <SOURCE MP3
+        FILE "Raw 1.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 110
+      SNAPOFFS 0
+      LENGTH 2.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {A3992115-AF7E-4F74-A3C9-59B82951EF89}
+      IID 2
+      NAME "Raw 1.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 39.33239597849428
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6330CF11-FF3E-41AC-B38D-2BAF977FC5EB}
+      <SOURCE MP3
+        FILE "Raw 1.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 113
+      SNAPOFFS 0
+      LENGTH 12
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {B5588071-B4C0-4023-A794-3BE9CE5080FC}
+      IID 2
+      NAME "Raw 1.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 41.83239597849428
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AB03C043-F955-4803-AFFC-232FCF8D9FDD}
+      <SOURCE MP3
+        FILE "Raw 1.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 125.5
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {86375FF7-804B-49EC-AE40-E4AC01074DC5}
+      IID 2
+      NAME "Raw 1.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 53.83239597849428
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2A759AE4-F109-402F-AA75-F7A64B61E305}
+      <SOURCE MP3
+        FILE "Raw 1.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 128
+      SNAPOFFS 0
+      LENGTH 0.88304152150573
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {8886BF59-A668-4661-89BF-68B23A154C2A}
+      IID 2
+      NAME "Raw 1.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 55.33239597849428
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {34BAEA53-FE5D-4667-A83B-9F32449A6F18}
+      <SOURCE MP3
+        FILE "Raw 1.mp3" 1
+      >
+    >
+  >
+>
