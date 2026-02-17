@@ -1,0 +1,141 @@
+----- Test
+  The quick brown fox jumped over the lazy dogs, as if anybody cared to notice.  And remember, wherever you go, there you are.  I'm not going to pull any more dumb joke rabbits out of this hat, so I guess that'll do it for this test.
+
+----- Player Characters
+
+- Filler
+  Uh huh.
+  Uh huh, right.
+  Yeah I hear ya.
+  Okay.
+  Right.
+  Right, go on.
+  Yeah I get it.
+
+- Greetings, starting conversation
+  Hello.
+  Hello there.
+  Hi.
+  Hi, how are you?
+  Hi, can we talk?
+  Uh, hi!
+  Uh, hi, can we talk?
+  Hey can we talk?
+  Greetings.
+  Uh, greetings!
+  Hey how's it going?
+  Uh, hey how's it going?
+  Hey, how ya doing?
+  Hey how ya doing there?
+  What's up?
+  Hey what's up?
+  What's going on?
+  Hey what's going on?
+  Excuse me.
+  Excuse me, can we talk?
+  Uh, excuse me.
+  Uh, excuse me, got a second?
+  Uh, excuse me, can we talk?
+  Uh, hey can we talk?
+  Hey.
+  Hey there.
+  Hey, idiot!
+  Hey, moron!
+  Hey jerk, listen up!
+  Hey!
+  Dude, listen!
+  Oh crap, what are you doing here?
+  Oh heck no, not you again!
+  Oh you gotta be kidding me, you again?
+
+- Farewell
+  Goodbye.
+  Bye.
+  Later.
+  Okay, later.
+  See you later.
+  Get out of my face!
+  Hey get out of my face!
+  Dude, get lost!
+  Dude, buzz off!
+  Dude, go!
+  Yeah, screw you!
+
+- Who are you?
+  Who are you?
+  Uh, who are you?
+  Um, who might you be?
+  Could you please tell me who you are?
+  Dude, who are you?
+  Hey who are you?
+  Hey who the heck are you anyways?
+
+- Exclamations
+  Whoa!
+  Hey what the-?
+  Holy cow!
+  Dude!
+  Dude what the heck!?
+  Aw man, what the heck?
+  Hey what the heck?
+  Huh?  Dude what the heck?
+  Dude no way!
+  Totally!
+  Yeah no kidding!
+  Dude no kidding!
+
+- Answering Yes
+  Yes.
+  Yeah sure.
+  Yeah sure, why not?
+  Okay.
+  Okay sure.
+  Okay sounds good.
+  Okay that works.
+  Heck yeah.
+  Heck yes.
+  Dude, of course!
+  Hey, of course!
+  Yeah, of course.
+  Sure.
+  Yup.
+  Yeah that'll work.
+  Uh, yeah okay.
+  Um, okay.
+
+- Answering No
+  No.
+  Nah.
+  Nah, better not.
+  No thanks.
+  Nah, no thanks.
+  I'll pass.
+  Uh, no.
+  Dude, no!  Uh-uh!
+  Heck no!
+  Not interested.
+  Uh, I'll pass.
+  Uh, no.
+
+- Shopping
+  Hi, what's for sale?
+  Hey what's for sale today?
+  Hi I'd like to see your stuff.
+  Hey I'd like to look at some of your stuff for sale.
+  Hi, can I see what you've got?
+
+----- NPCs
+
+
+-----
+
+Hello.  <#0.5#>  Hello there.  <#0.5#>  Hi.  <#0.5#>  Hi, how are you?  <#0.5#>  Hi, can we talk?  <#0.5#>  Uh, hi!  <#0.5#>  Uh, hi, can we talk?  <#0.5#>  Hey can we talk?  <#0.5#>  Greetings.  <#0.5#>  Uh, greetings!  <#0.5#>  Hey how's it going?  <#0.5#>  Uh, hey how's it going?  <#0.5#>  Hey, how ya doing?  <#0.5#>  Hey how ya doing there?  <#0.5#>  What's up?  <#0.5#>  Hey what's up?  <#0.5#>  What's going on?  <#0.5#>  Hey what's going on?  <#0.5#>  Excuse me.  <#0.5#>  Excuse me, can we talk?  <#0.5#>  Uh, excuse me.  <#0.5#>  Uh, excuse me, got a second?  <#0.5#>  Uh, excuse me, can we talk?  <#0.5#>  Uh, hey can we talk?  <#0.5#>  Hey.  <#0.5#>  Hey there.
+
+Uh huh. <#1.0#> Uh huh. <#1.0#> Uh huh. <#1.0#> Uh huh.
+Uh huh, right. <#1.0#> Uh huh, right. <#1.0#> Uh huh, right. <#1.0#> Uh huh, right.
+Yeah I hear ya. <#1.0#> Yeah I hear ya. <#1.0#> Yeah I hear ya. <#1.0#> Yeah I hear ya.
+Okay. <#1.0#> Okay. <#1.0#> Okay. <#1.0#> Okay.
+Right. <#1.0#> Right. <#1.0#> Right. <#1.0#> Right.
+Right, go on. <#1.0#> Right, go on. <#1.0#> Right, go on. <#1.0#> Right, go on.
+Yeah I get it. <#1.0#> Yeah I get it. <#1.0#> Yeah I get it. <#1.0#> Yeah I get it.
+
