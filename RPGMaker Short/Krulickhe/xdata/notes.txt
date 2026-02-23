@@ -1,0 +1,487 @@
+x = 1920
+y = 1080
+
+x-y = 840
+
+(x-y) * 0.5 = 420
+
+
+
+
+16 x 9 // 1920x1080 aspect ratio
+
+1024 * x = 1080
+x = 1080 / 1024
+x = 1.0546875
+
+1920 - 1080 = 840 // 840 pixels on both sides of perfect 1080x1080 square before hitting right and left sides of the screen, combined
+840 * 0.5 = 420 // 420 pixels on each side, individually, before hitting either edge of the screen
+420 / 1.0546875 = 398.22222... // Roughly 398 pixels on each individual side if the square is only 1024x1024
+
+
+
+
+1024 * x = 1440
+x = 1440 / 1024
+x = 1.40625
+
+2560 - 1440 = 1120
+1120 * 0.5 = 560
+560 / 1.40625 = 398.22222...
+
+
+
+16 / 9 = 1.77777...
+9 / 16 = 0.5625
+
+1024 / 0.5625 = 1,820.44444...
+
+1,820.44444 x 1024 // X and Y width and height of a display with a vertical size of 1024 pixels
+1,820.44444 - 1024 = 796.44444
+796.44444 * 0.5 = 398.22222
+
+9.0	=	0.5625
+16.0
+
+9.0	=	0.5625
+?
+
+? = 9.0 / 0.5625
+
+
+?	=	0.5625
+16.0
+
+? = 0.5625 / 16.0
+
+2560 * x = 1920
+x = 1920 / 2560
+
+x * 1920 = 2560
+x = 2560 / 1920
+
+
+
+9.0	=	0.5625
+16.0
+
+1024 * 0.5625 = 576
+1024 - 576 = 448
+448 * 0.5 = 224
+
+
+x, y, t
+(t * x) + ((1.0 - t) * y) = result
+
+x = vec3(0.0, 0.0, 1.0)
+y = vec3(color_tan.xyz), which is after tbn matrix is applied (multiplied) to it
+
+if t is equal to -1.0, to apply opposite tangent mapping effect:
+(-1.0 * x) + (2.0 * y) = result
+x_neg = vec3(0.0, 0.0, -1.0);
+x_neg + (2.0 * y) = result
+This is wrong
+
+
+
+((1.0 - t) * x) + (t * y) = result
+very little "t" means a lot of "x" and little "y"
+x = tbn * vec3(0.0, 0.0, 1.0)
+y = vec3(color_tan.xyz), which is after tbn matrix is applied (multiplied) to it
+if t is equal to -1.0, to apply opposite tangent mapping effect:
+(2.0 * x) + (-1.0 * y) = result
+where x = tbn * vec3(0.0, 0.0, 1.0)
+and y = tbn * color_tan.xyz
+
+
+By, Nz
+
+
+Daniel
+	Greatsword Master
+Christina
+	Axe Master
+	Mage
+	Witch
+	Wizard
+	Thief	
+Ron
+	Axe Master
+	Mage
+	Witch
+	Wizard
+	Thief	
+Tom
+	Axe Master
+	Mage
+	Witch
+	Wizard
+	Thief	
+
+Multiclasses
+	Axe Master / Mage
+	Axe Master / Witch
+	Axe Master / Thief
+	Mage / Witch
+	Thief / Mage
+
+1	Iron
+2	Steel
+3	Bronze
+4	Silver
+5	Gold
+6	Chrome
+7	Magifiber
+8	Pearl
+9	Ivory
+10	Jade
+11	Jet
+12	Ruby
+13	Sapphire
+14	Emerald
+15	Diamond
+16	Onyx
+17	Obsidian
+18	Crystal
+19	Enchantstone
+20	Ragewind
+
+Acrydia
+
+short-acting acid poison for scorpions
+guard needs enhanced defense
+test if game runs from optical disc
+Prolouge Signs Conversation
+Multiclasses
+Assault Rifle Attack Types
+Witch's special abilities
+Witch's spells
+Finish in-game manual
+head-on-fence conversation
+No-head-available standing poses
+
+<cgmzdesc:[description]>
+<cgmzencyclopediahide>
+
+SKILLS:
+0021 Easy Difficulty Multiple Actions
+0022 Dual Class Warrior Multiple Actions
+0023 Male half zarakite Multiple Actions
+0024 Female half zarakite Multiple Actions
+0025 Warrior Multiple Actions
+0026 Wizard Multiple Actions
+0027 Witch Multiple Actions
+0028 Thief Multiple Actions
+
+bestiary
+items
+armors
+weapons
+skills
+states
+actors
+
+-----Warrior Multiple Actions
+
+<cgmzdesc:
+This is level 1.
+Every combat turn, there is:
+50 percent chance of 2nd extra action
+>
+
+<cgmzdesc:
+This is level 2.
+This replaces all previous, lower levels of this ability.
+Every combat turn, there is:
+75 percent chance of 2nd extra action
+>
+
+<cgmzdesc:
+This is level 3.
+This replaces all previous, lower levels of this ability.
+Every combat turn, there is:
+64 percent chance of 2nd extra action
+32 percent chance of 3rd extra action
+>
+
+<cgmzdesc:
+This is level 4.
+This replaces all previous, lower levels of this ability.
+Every combat turn, there is:
+75 percent chance of 2nd extra action
+50 percent chance of 3rd extra action
+>
+
+<cgmzdesc:
+This is level 5.
+This replaces all previous, lower levels of this ability.
+Every combat turn, there is:
+80 percent chance of 2nd extra action
+75 percent chance of 3rd extra action
+>
+
+<cgmzdesc:
+This is level 6.
+This replaces all previous, lower levels of this ability.
+Every combat turn, there is:
+85 percent chance of 2nd extra action
+50 percent chance of 3rd extra action
+32 percent chance of 4th extra action
+>
+
+<cgmzdesc:
+This is level 7.
+This replaces all previous, lower levels of this ability.
+Every combat turn, there is:
+85 percent chance of 2nd extra action
+64 percent chance of 3rd extra action
+50 percent chance of 4th extra action
+>
+
+<cgmzdesc:
+This is level 8.
+This replaces all previous, lower levels of this ability.
+Every combat turn, there is:
+90 percent chance of 2nd extra action
+75 percent chance of 3rd extra action
+64 percent chance of 4th extra action
+>
+
+<cgmzdesc:
+This is level 9.
+This replaces all previous, lower levels of this ability.
+Every combat turn, there is:
+95 percent chance of 2nd extra action
+80 percent chance of 3rd extra action
+75 percent chance of 4th extra action
+32 percent chance of 5th extra action
+>
+
+<cgmzdesc:
+This is level 10.
+This replaces all previous, lower levels of this ability.
+Every combat turn, there is:
+95 percent chance of 2nd extra action
+85 percent chance of 3rd extra action
+80 percent chance of 4th extra action
+64 percent chance of 5th extra action
+>
+
+-----Half Zarakite Multiple Actions (Male)
+
+<cgmzdesc:
+This is level 1.
+These bonuses apply to male half zarakites only.  Females have different bonuses.
+These bonus chances to have extra actions in combat, which are from species, accumulate with any bonuses for character class.
+Every combat turn, there is:
+100 percent chance of 2nd extra action
+90 percent chance of 3rd extra action
+>
+
+<cgmzdesc:
+This is level 2.
+This replaces all previous, lower levels of this ability.
+These bonuses apply to male half zarakites only.  Females have different bonuses.
+These bonus chances to have extra actions in combat, which are from species, accumulate with any bonuses for character class.
+Every combat turn, there is:
+100 percent chance of 2nd extra action
+95 percent chance of 3rd extra action
+32 percent chance of 4th extra action
+>
+
+<cgmzdesc:
+This is level 3.
+This replaces all previous, lower levels of this ability.
+These bonuses apply to male half zarakites only.  Females have different bonuses.
+These bonus chances to have extra actions in combat, which are from species, accumulate with any bonuses for character class.
+Every combat turn, there is:
+100 percent chance of 2nd extra action
+95 percent chance of 3rd extra action
+50 percent chance of 4th extra action
+25 percent chance of 5th extra action
+>
+
+<cgmzdesc:
+This is level 4.
+This replaces all previous, lower levels of this ability.
+These bonuses apply to male half zarakites only.  Females have different bonuses.
+These bonus chances to have extra actions in combat, which are from species, accumulate with any bonuses for character class.
+Every combat turn, there is:
+100 percent chance of 2nd extra action
+95 percent chance of 3rd extra action
+64 percent chance of 4th extra action
+50 percent chance of 5th extra action
+>
+
+<cgmzdesc:
+This is level 5.
+This replaces all previous, lower levels of this ability.
+These bonuses apply to male half zarakites only.  Females have different bonuses.
+These bonus chances to have extra actions in combat, which are from species, accumulate with any bonuses for character class.
+Every combat turn, there is:
+100 percent chance of 2nd extra action
+100 percent chance of 3rd extra action
+95 percent chance of 4th extra action
+80 percent chance of 5th extra action
+>
+
+
+
+
+<cgmzdesc:
+Becuase of how zarakite dragon magic works, the creator's hair color determines color and flavor.  Blond haired zarakites and half-zarakites, like yourself for example, make lemon-flavored food that is blond or yellow-colored, and sugary sweet as well.
+
+If you had orange hair (what many call red hair), then the syrup and candy you magically create would be orange-colored and would taste like sweetened orange.
+
+Vivid red hair, red like cherries and fire trucks, means red-colored foods with a sweet strawberry taste.
+
+Blue hair means a sweet blueberry taste, and purple means a sweet grape flavor.  Brown and Black mean chocolate and dark chocolate flavors.  The list goes on.
+
+The color and flavor affect nutrition from eating them slightly.
+
+These magically created foods are primarily treats, candy, and desserts, even though some are healthy and nutritious.  Most of them DO contain sugar of some sort regardless.>
+
+<cgmzdesc:
+A bit of important stuff about healing and curative magic potions needs to be mentioned here.
+
+The short version:  This game is a little different than other game of it's type, in that a playable character can NOT use a healing potion on a DIFFERENT character who is OTHER than themself in combat.  *NO.*  Again, NO WAY.  The exception is any that brings back a character from death or defeat.
+
+I'll explain why.  Yes, this is now the more detailed version, getting into the "how" and "why" stuff, and what's realistic versus outright screwball and utter nonsense.  Okay, can you imagine a party of adventurers going through rooms of a dungeon, then getting attacked by monsters, and after one of the main player characters of the party gets wounded, they pull a magic healing potion out of their travel backpack and hold it out to one of their companions, and say: "Oh, I want to make sure I still get my own attack in against one of these monsters this combat turn, so in seeing that I'm wounded but don't want to use up my turn with this healing potion, could you please just drink this potion FOR ME, so that it goes down YOUR throat INSTEAD OF mine, and thanks to insane quack logic, makes MY wounds SOMEHOW heal up, and not any of yours?  I'd really appreciate that, thanks, as I just somehow can't be bothered to drink it myself..."!?  Okay, seriously, WTF?  This type of thing is the most realism-shattering immersion-down-the-toilet completely unthinkable nonsense I have EVER heard of in any sort of RPG or JRPG game anything like this - Does anyone else see the problem with this concept?  One character, who is wounded, but trying to swing a sword or other weapon at a monster, while rushing around the room of the dungeon dodging blows and trying to avoid getting hit by the monster at the same time, can't be bothered to drink their own darn potion and wants one of their companions to drink a potion out of the shared inventory FOR them, to supposedly heal their wounds and not their companion's wounds, when both characters are rushing around the room of the dungeon trading blows with monsters doing the same, trying to hit each other's enemies while trying to avoid being hit, etc.  Sorry, there's just too many problems with this.  If someone wants to be a meathead of an armchair critic of some sort and say "Oh, but they could be fighting and I could pour it down their throat for them, to heal them and not me..." then my rebuttal as a Dungeon Master is "Fine, so your buddy can't run around and swing his sword, or dodge the monsters' attacks either, and has to stand still so you can pour it down his throat, and he has to not spill it while also swallowing it, which means he has to carefully stand still, be target practice for the monsters, and can't fight while you, his companion use up your turn pouring it down his throat, so NEITHER of you get to fight this turn!  That's my ruling!  If he had swallowed his own friggin' potion, you could still fight, but now you two have BOTH used your turn up doing something that he could have just done himself!  Too late, neither of you get to fight now.  TOUGH."  Fortunately, this game simplifies things a bit by not allowing any silly crap like that and just has it so that all characters who want to benefit from a magic healing potion have to drink their own darn potion, thank you.
+
+As for the exception that was mentioned, the exception doesn't break this type of sticking-to-logic-and-common-sense that this game uses for this sort of thing, and I'll explain why:  If someone is dead or defeated, they are lying on the floor of the dungeon in this scenario, in a pool of their own blood most likely, and a companion can then make sure the defeated party member is lying on their back, rolling them to face up if necessary, pinch their defeated companion's nose shut, open the mouth, and pour the magic potion down their throat, bringing them back to life.  Note that the defeated companion in this case isn't running around trading and dodging blows with opponents, so a friend of his CAN get to them and hopefully get a potion to go down their throat, the friend using up their own turn to do so.  Note that the defeated companion still doesn't get their own turn of course, as they were lying dead in a pool of their own blood to begin with, duh.  Now that's my own armchair critic argument, Ha!
+
+Yes, realism now prevails!  At least a bit more than the silly alternative...
+>
+
+<cgmzdesc:
+Food and drink items will increase Special Points when ingested, giving general nutrition, protein, and such to one who consumes it.  This means that most food and drink items are good at restoring a character's abilities to use special or innate powers or abilities, when those abilities depend on some sort of nutrition, or focus and concentration, or physical effort that can wear one out, or other biological reserves of their body's cells and-or tissues.  For magical creatures, this can also include natural innate magic.  Yes, this certainly includes \P[1] and his innate zarakite magics.
+
+Aside from Special Points being restored, eating food and consuming drinks typically also restores small amounts of Hit Points, but usually far less than that of healing potions.
+
+A few food items, but not many, also restore Magic Points, of the kind that combat mages, wizards, and witches use for casting spells.  Keep in mind that such magic is a very different magic than zarakite magic, and unlike zarakite magic is available to nearly any intelligent, sentient species, with study, training, and practice, and draws upon different sources than zarakite magic.  By comparison, zarakite magic is innate if one is a zarakite or half zarakite, and draws from inner biological and natural sources of one's self if they are a zarakite dragon, or their non-human dragon side if a half zarakite.  Zarakite magic and the magic associated with Magic Points are mostly independent of each other, which is why they aren't powered with the same point system or methods of being replenished when low.  Magic points are a pool of available magic of an arcane sort, while zarakite magic comes from a dragon's metabolism and nutrition that their body builds up and stores, replenished for the most part by digesting food.
+>
+
+-----  You
+
+\P[1]
+
+The main character you play in this game, \P[1], a half-human, half dragon, sixteen year old teenage boy who comes from a wealthy family, goes to high school where everyone else who is a student is pure human, enjoys video games, movies, and swordfighting, and spends a lot of time with his best friends and his long-time human girlfriend that he's tight-knit with for both their entire lives.
+
+\P[1], like other half zarakite dragons, has physically gotten as old as he's going to get, and is now a sixteen year old boy of sorts, physically and intellectually, for the rest of his life of 100 years, never to become an adult in any physical or mental capacity because of his half dragon magical, spiritual, and genetic nature, being the blend of two species the way it is with half zarakites.
+
+Note that if you haven't read up on a type of dragons that are called zarakites, you should probably read that first, as it explains a lot that is referenced in this encyclopedia entry.
+
+\P[1] was born half-dragon, and as such he cannot ever become pure, common human, which means he can't ever grow old or even completely grow up.  He is what he is, magical in nature and youthful for his whole life, whether he wants to be such or not.  \P[1] was born from two human parents, a pure common human mother and a common human father who has pure-white colored skin like some zarakites but is otherwise a common human, only carrying the gene without being zarakite at all, unlike his son \P[1], which was born half-dragon.  This happens sometimes in families, where humans are still humans but pass along that gene, and they once in a while have a child who has a lot more, where they turn out to be half dragon like that.
+
+Like other half-dragons, \P[1] is incapable of getting his girlfriend, or any female for that matter, pregnant, no matter what, and can never become a biological father of any kind.  Only half-dragons that were born human can ever have children, after being turned back into a common human again.  \P[1], again, doesn't have this option.  \P[1] isn't upset by this, but goes with it, enjoying getting in bed with his girlfriend and the two of each other enjoying sexual pleasures with each other, with no birth control or protection ever being required or any concern.
+
+Regarding that, \P[1] did do something else to his girlfriend, however.  By having such personal pleasure with his girlfriend, his biology and magic involuntarily altered his girlfriend, turning her from a pure human she was born as into a female half-zarakite.  \P[1] doesn't know how to change her back, but his girlfriend \P[2] stopped caring about that very quickly, and decided she doesn't ever want to go back, and instead stay with \P[1] for the rest of both of their lives, as his life-long teenage girlfriend.  She explained this to her own parents, who thought about the situation and accepted her choice, and decided they didn't hate or feel bad about \P[1] or what he did to her, and chose to wish them both the best and still support \P[2] while she was still in school.  \P[1]'s parents, while concerned at first, also decided to accept \P[2]'s choice, and \P[1] also accepted her as a girlfriend-for-life, with the two of them to keep each other company and never part ways, until passing from natural causes.
+
+Regarding what \P[1] does with his girlfriend \P[2], both of them live in the town of Acrydia, a small but old suburban town in the nation of Krulickhe where, according to regional laws and legal code, teenagers are legally allowed to have sexual intercourse and participate in limited sexual acts with each other, provided that the parents of both juvenile citizens, when both youths come from different families but both from the same nation and region, knowingly give consent to allowing their children to do so, and also take responsibility for any injury or harm that can result.  The two or more participating juveniles (more than two, in a group, are actually allowed) do however have limitations and restrictions of sorts, for example they must use birth control measures if applicable to their biology, to avoid teen pregnancy, and other specifics beyond the scope of this text.  \P[1] and \P[2], because of \P[1]'s species as a half-dragon, to begin with, don't have to worry about the birth control or teen pregnancy parts of it of course.  Neither does \P[2] now.  Regional laws that cover the town of Acrydia have nothing against how \P[1] turned \P[2] into a female half zarakite dragon though, simply because zarakites and half zarakites are so rare in the area \P[1] and his girlfriend live in that they haven't written any laws that cover zarakite dragons or account for their magics.  Krulickhe Federal law, which covers the entire nation, barely addresses zarakite dragons and zarakite magic at all, and politicians who lead the nation, including the Royal Emperor himself, just haven't made such things a priority. 
+
+Regarding the 500 faces a half-zarakite can potentially have one of, per gender (as described in the entries on zarakites and half zarakites), \P[1] has what is called a "tigerstone" face.  This means he can be called "a tigerstone-faced half-dragon" as well as "a tigerstone" if one doesn't specify his species.  Being born a tigerstone, \P[1] has a tigerstone personality and intellect, which is associated with having his facial features.  Naturally, this means that \P[1] likes the same video games, music, movies, hobbies, in some cases foods, and so on, that other boys with a tigerstone face like, and the same dislikes as well.  \P[1] of course has the half-dragon version of it, as opposed to the cluster dragon versions of it.  Preferences with food and drink are of course similar but not the same as the dragon versions, given that half-dragons are able to eat the same general type of human omnivore diet as common humans, while full-blooded cluster dragons that lack a human half have an omnivore diet combined with a carnivore diet, with a digestive tract able to easily digest raw meat and animal parts that are of course not included in a human omnivore diet.  Full-blooded zarakites are also capable of eating a zarakite scavanger diet, which refers to spoiled, rotting, decayed meat and food of sorts, although they dislike and hate eating such material despite being capable of digesting it safely.
+
+\P[1], like other half zarakites, is born with and has one of five body muscle sizes, as explained in the entry on zarakites, and in his case has a body that has muscle size FIVE, the strongest and fastest one with the best reflexes and reaction times, without being bulky, making \P[1] extremely strong, quick, and fast, while still being a slender, skinny teenage boy that lacks (and doesn't need) bulk or much weight.  Even though he can lift up a typical car out of a parking space easily, and hold it in the air, \P[1]'s half-zarakite teenage body, super-skinny and extremely non-bulky from being half-dragon, only weighs about 75 pounds.  His body uses zarakite magic of all it's types in various body parts, including all the muscles in his body which magically influence inertia and bend laws of physics, allowing \P[1] to swing a heavy object that weighs more than his own body does, making it accelerate rapidly and whip through the air, then abruptly stop without having to slow down much either, while making just the heavy object move, and not cause his whole body (which weighs less than the object) to move instead.  Zarakites and half-zarakites both have this type of magic to their muscles, as well as other magics as well controlling muscle action and motion.  Zarakites and half zarakites can both grow wings and fly, and if they throw something heavy while hovering, the same type of magic mentioned makes the object be thrown hard and fast, without their hovering body getting propelled backwards, and without having to compensate for throwing the object by using any wing thrust at all to counter-act the object being thrown.
+
+This type of muscle magic allows \P[1] to train with and use two-handed swords that are weighted and balanced for half-dragons like himself.  Such swords are much heavier in weight than human two-handed swords, yet can be swung through the air faster than a human can with a human two-handed sword, and the increased weight allows the heavier blade to maintain inertia to cut far deeper into whatever it strikes.  Half dragons like \P[1] can actually cut trees and other things right in half with a good swing in ways that humans and their lighter blades and non-magical muscles just can't, although results of course vary.  \P[1]'s human teenage friends from school have tried just picking up one of \P[1]'s swords off of a table or floor, with much difficulty, and have plenty of jokes and wisecracks about it, as well as a few about how one of his swords falling down on top of someone could cut them in half easily, etc.
+
+\P[1] fights with his two-handed sword in something of a whirlwind by style, whipping his half-dragon two-handed blade around super-fast, making multiple quick strikes when he can, sometimes in a reckless frenzy.  He tends to sometimes be a little too aggressive with this style of fighting, and not concentrate much on blocking an opponent's attacks, in favor of attacking his opponent more.  This leads to him frequently getting parts of his own body damaged or even chopped off by his opponent quite frequently, as a tendancy.  He hardly ever passes on a chance to strike his opponent, quick, fast, and heavy, even if it leaves part of him exposed.  This of course isn't the best fighting style, but \P[1] doesn't have a good explanation for how he ended up fighting with it.  "Its a long story" would be his answer.
+
+\P[1] doesn't get sleepy or need sleep, and is always wide awake, just like any other zarakite or half-zarakite.  His girlfriend \P[2] is of course the same way, and when they travel with each other - which is always how they travel, when they do, they always spend the night in any hotel or Inn in the same bedroom, and use only one shared bed, and not for sleeping of course, but exclusively for sexual behaviors with each other.  Its how they relax and unwind, when just with each other.  The two are inseperable, going to and from school together, sharing many of the same classes and sitting next to each other in school, and not ever spending too much time out of sight of each other, at least by choice.  They just about never fight or argue, and are very used to each other.  \P[2] in fact now lives in \P[1]'s house, even though both are still in high school, though she still talks to her own parents.
+
+Note that because of \P[1]'s and \P[2]'s half-zarakite biology, both are immune to sleep, mental, and psychic attacks of all kinds.  Their bodies, from being half-dragon, are immune to fire, ice, electrical attacks and electrocution, and highly resistant to poison.  They are virtually immune to diseases, and even commond colds and the flu, and can't easily be carriers for these things they are immune and resistant to.
+
+Being a male half zarakite, \P[1] is capable of some things that female half zarakites like \P[2] cannot do.  \P[1] can breathe fire, much like a zarakite dragon, grow large dragon wings out of his back that are made of skin and feathers, without bones and as such super-flexible, and create edible treats and foods like dragon syrup and dragon candy, and also clean drinking water.  Male half zarakites always have additional magics and abilities that female half zarakites don't have, and the males enjoy far better reflexes, physical strength, etc. that is even more beyond what humans have, then the females, which get a lesser advantage over humans.  The reasons for this involve cluster zarakite biology and nature.  There are different types and categories of zarakites, and when a human is half zarakite, their zarakite side is of the cluster zarakite category, and cluster zarakites only have ONE gender, males only!  Female humans are lucky they can be even half zarakite at all.  The parts of them that make them female are completely human, and human biology and nature is, unfortunately for humans, inferior and lesser, as well as non-magical, compared to zarakites, which are a type of dragon.  Interestingly enough, cluster zarakites spend much of their lives associating with human children and teenagers, and being among their friends at their human level of things, trying to avoid towering above them with superiority and not wanting to accidentally be condescending or belittling the young humans they befriend.  It isn't always practical to avoid, but cluster zarakites always try.
+
+Cluster zarakites typically befriend and spend time doing things with human children of various ages, and especially teenagers, from movies to video games, doing stuff in shopping malls that their young human friends are into, and so on, and when these human friends graduate high school and move out of town to start their careers and adult lifestyles, cluster zarakites say goodbye to their human friends, often with wild goodbye parties, often with emotions and a few final good times with each other, perhaps even a few emotional moments for some.  Afterwards, while the humans leave behind their childhoods and things associated with childhood, like magical dragon friends that cluster zarakites are, and live as grown-ups who often get married and have their own families, the cluster zarakites, especially the immortal subtypes of their species that never die of old age and can theoretically live forever, find new child friends, and repeat the process over and over again over years, centuries, and more.
+
+\P[1] is unfortunately untrained as a half-dragon, meaning he isn't aware of all of what his magics are, or even all of what his body can and will do.  He has abilities he isn't aware he's always had, others he knows about but doesn't know how to use or make work properly, and others where he thinks he's doing things the right way but had to discover by accident and is always hoping he is actually doing it the right way and not doing it a messed up way because he wasn't taught how.  His parents are both human, and don't know dragon stuff.  Cluster zarakites are rare, and number few in population count compared to humans, and even though cluster zarakites integrate with and live among humans, including going to banks and grocery stores for the same reasons, living in households in the same towns and cities, and going to schools where most of the students are humans but they go there as well, cluster zarakites just aren't easy to find in some towns and cities, and in some human-populated areas can be really sparse.  Krulickhe, the nation \P[1] and his family come from, is known for having darn near next to no zarakite dragons in it, for whatever unclear reasons that \P[1]'s family hasn't figured out.  \P[1]'s parents REALLY wanted to set up their son, years ago, with a cluster zarakite to be \P[1]'s friend, to help \P[1] grow up and get to know his dragon side and what it can do and so on.  \P[1]'s parents tried over and over throughout his childhood and for whatever reasons just couldn't find any cluster dragon to fulfill what \P[1] has needed and still needs.  \P[1] did figure out how to grow and then degenerate his wings again, though he hasn't figured out preening or how to clean or care for his plumage, or the slightest bit how to fly with his wings.  He still relies on his parents to drive him places in the car, until very recently when he got his own driver's license, though he lacks experience and doesn't really know how to drive very well, yet.
+
+\P[1] has a lot going for him, much more than his human friends and classmates at school, at least for now while being young and still a teenager.  One classmate who has been in the same grade as \P[1] and in many of the same classes over the years, all the way back to grade school, Benny Zinkland, is especially jealous of \P[1], jealous of his family's extreme wealth, and of \P[1]'s body and magical abilities and all the fun \P[1] has with them, and everything that \P[1] can do.  Benny was accepted as a friend of \P[1], even though a difficult friend at times, throughout part of grade school and all of junior high school, but during freshman year of high school changed a bit and behaved as more of a rival and even a bit of a bully toward \P[1], even though \P[1] has tried repeatedly to leave the door open for Benny to be a friend of his who spends time with him again, if Benny were to behave himself and stop pranking \P[1] with childish schemes and the like.
+
+-----
+
+Your Girlfriend
+
+Your long-time and lifetime girlfriend, \P[2], who you've known since grade school.  The two of you started out as just friends, before you and other humans in your grade at school would begin dating, when boys would befriend other boys and girls would normally spend time with other girls.  \P[2] was special in that she would also hang out with groups of boys, but only if you were also among the boys, and she became very close to you very quickly.  Later on, in junior high school, she became more than just a friend, but also a girlfriend, and the two of you continued to do things with other boys your age as friends, but between you and \P[2] the two of you developed something additional to your relationship, where you and her introduced romance and a little dating with each other, falling in love, and really enjoying each other.  Now that you two are sixteen and in high school, you two continue to love each other, but also continue to do things as friends at the same time, playing video games and watching movies together, etc.
+
+Your two best friends other than \P[2], who you have also known for a long time, \P[3] and \P[4], also follow you around when you go places, and remain good close friends, ever since grade school as well, and see \P[2] as simply a mutual basic friend, but don't get in the way of the love that you and \P[2] have for each other.
+
+Regarding the loving relationship you have with \P[2], the two of you do have a sexual relationship with each other as part of it, and although \P[2] was born as a pure common human, it was from climbing into bed with her that you turned her into a female half-dragon, something that your own magic and body parts did to her involuntarily, and without you or her being aware of it or knowing that your body would do that to her.  It was, understandably, quite a surprise for both of you when that happened, but not unpleasant or painful at all, and you didn't actually get upset about it, but only because she wasn't unhappy or upset about it, and ever since then the two of you decided to go with it and enjoy it.
+
+Being a half-dragon, \P[2] has body parts that regrow and regenerate, like your body parts, and can survive decapitation without it hurting or even being any significant injury.  Compared to yourself, \P[2] is however more careful than you are in fighting and combat, and doesn't have a reckless-frenzy style of fighting, so she tends to avoid getting decapitated or dismembered very often as she is careful even though you would say that she doesn't have to be.  You're not sure why she is careful like that, but if asked you would guess that it probably has to do with how you were born a half-dragon while she was born a common human, and before she ever met you she learned what physical pain feels like and had to be careful instead of careless about injury anything like yourself.  Old habits die hard, perhaps?  She was born with different instincts.
+
+Female half-dragons don't have as much as male half-dragons when it comes to their magics and abilities, and this also includes differences in strength, speed, and reflexes, by gender.  Most female half-zarakites don't have any additional physical strength or faster reflexes from being half-zarakite, although in a few rare cases such female half-dragons have more physical strength and speed than their pure human counterparts do, but still far less than what the males do, when talking about half zarakites.  \P[2] is one of those rare cases, so she is somewhat superhuman in physical strength and speed, and more athletic than what teenage pure-human females can be, but you, \P[1], are always far better still with how physically strong and fast you are, and always able to beat \P[2] in any physical competition, even though she herself can beat any pure human teenager at anything physical, male or female.
+
+\P[2] enjoys perfect skin that doesn't have any zits, acne, discoloration, scars, loose freckles, etc., no matter what she does to it or puts it through, as it is now dragon skin after you turned her halfway into a zarakite dragon.  Her dragon skin is caucasian white, unlike your own pure chalk-white dragon skin, only because \P[2] was born with caucasian white skin when she started life as a common human.  Regardless of how her skin has a different color than yours, she, like yourself, enjoys immunity to fire, ice, and electrical attacks, with her dragon skin you gave her.  Like yourself, she now is almost completely immune to poison, viruses, diseases (including all known sexually-transmitted types, with complete immunity), common colds and even the flu.  After being turned into a half-dragon, she is also no longer capable of getting pregnant or having children, something which doesn't upset her at all, but rather you and her enjoy as both of you happily enjoy the sexual relationship you have with each other and how worry-free it is, with no need for birth control or protection, and zero risk of becoming a teenage parent.
+
+With her anatomy as you have altered it, she is no longer of physically or mentally developing past sixteen years of age, or growing old in any way, aside from only her chronological age.  This is true for yourself as well, and other half zarakites, who also enjoy life-long teenage youth as being as far as they go in physical development as well as mental and intellectual maturity.  Half zarakites are like this, enjoying being a kid and being into teenage fun and games their whole lives, and never being too old for such things.
+
+This does of course have a drawback, as you and \P[2] need to be taken care of and even parented a little by someone your whole lives, and your own human parents as well as hers can't do it their whole lives.  Your own parents have however are very wealthy, and have made investments that go beyond what is financial so that you and \P[2] can continue to live as happy teenagers the rest of your lives, at their mansion, with someone who has a job and role and function of acting as a parent, employed and paid for from your wealthy parents' estate, for as long as you and \P[2] live.  They've already seen it coming years ago, and have already made plans for it.  Your parents have also already accepted \P[2] and the relationship you and her have with each other, for life.  \P[2]'s parents are also okay with it, something they decided a few years ago.
+
+\P[2] has also gotten a few other things from you, from how you altered her into a half dragon.  She now has your body artwork, or "zarakite tattoo" or "mark" on her own right-hand upper arm, and it looks exactly like your own.  Like yours, it has extreme detail like a photograph, is vividly colored, never fades, runs, or shifts where it shows on the skin, and like your own when her arm is damaged or injured the body artwork heals with the flesh, without scarring or any sign of injury or getting messed up afterwards.  You and her know that she will have this with her arm her whole life, much like your arm your whole life.  Like your arm and your body artwork, if her arm is ever severed and she has to grow a new arm, a new mark with the same perfect artwork will grow on the skin to look exactly like it did on her old arm.  (Half zarakite and zarakite magic does stuff like this.)
+
+Being a half dragon, like yourself \P[2] has no body hair on her legs, armpits, no pubic hair, and no where else on her body except parts of her head that include only her scalp, eyebrows, and eyelashes, and that's absolutely it.  No other body part of hers grows any hair or has hair folicles.  You're the same way, unable to grow a beard, and for your entire life won't ever need to shave.  Like your own scalp hair, \P[2]'s dragon hair, coincidentally the same blond color, doesn't break or fall out very easily, and is firmly rooted, so that when either of you are decapitated your heads can be picked up and held by the scalp hair, without any hair ripping out and without the scalp stretching, and of course without pain or discomfort.  Zarakite hair is like that, and half zarakites enjoy zarakite hair.  Also like zarakite hair, if any of the hair is cut, it quickly grows back, within split seconds, back to the exact original length for the hair style.  This means that if \P[2] is decapiated and has her head killed, she is fine growing a new head and doesn't have to wait many long months growing out her hair again to get it's length or style like what she had to begin with.  You're the same way with your blond flat-top hair.  Also, unlike your scalp hair, \P[2]'s is always loose, flowing, and full of volume, never stiff or springy.  Your own flat-top hair, \P[1], is springy and semi-stiff, and when anything pushes it down then stops pushing it springs right back up into shape.  This means that if you wear a hat, then take it off, you instantly have your flat-top hair style again.  This also holds true for when you are decapitated and playfully bounce and dribble your severed head like a basketball on a hard floor or pavement.  For whatever reasons, half-dragon and full-blooded zarakite heads, when detached or chopped off, BOUNCE really well, literally just as well as a basketball, even with an irregular shape from facial features etc., without pain or injury of any kind, on any hard surface, including from extreme height, like off of a tall highway bridge overpass, and onto pavement below, for example.  You and \P[2] have found this to be very true of your heads.
+
+\P[2] and you find that you get along with each other very easily, always, and never end up with any serious arguments or problems with each other, and never end up having to give each other space for a while.  Its always been that way for you and her for whatever reasons.  Neither one of you knows why, but of course don't complain about it.  \P[2] often follows you around when you two go places, as a follower, letting you be a leader most of the time, and jumps in to back you up and help you out when she feels she should or she wants to.  Your other best friends, \P[3] and \P[4], say that you and \P[2] are really made for each other.
+
+-----
+
+Your Friend
+
+One of your best friends from school, \P[3], who enjoys following you and your girlfriend \P[2] around inside and outside of school much of the time.
+
+-----
+
+Your Other Friend
+
+Your other best friend from school, \P[4], who also tends to go where you go, tight-knit with you and the other two that make up your four-member group of close friends that do a lot with each other, in school wherever and whenever you four can, and especially outside of school.
+
+-----
+
+Humans
+
+Humans are a well established species on Earth, and the first intelligent and sentient species of Earth as well.  They have been around for far longer than zarakites and any other intelligent species of Earth-origin, and in modern times are sometimes referred to as "ancients" or "archaics" in modern English language, as well as "human."  Modern pure-blooded humans, which make up the largest population group of present-day people of Earth, when taking into account the entire world population of people, are also known as "common humans."  None of these terms are derogatory, and are used in newspapers, professional documents, and more.  It has been this way for many generations now, including going far back before \P[1] and any other human alive today was born.
+
+-----
+
+Zarakites
+
+Zarakites, as a species, are a specific type of dragon, and are considered a species, people, and in some contexts even divine beings.
+
+-----
+
+Half Zarakites
+
+Half zarakites, also known interchangeably as half dragons, are humans that have a combined dual-nature of biology, DNA, anatomy, and magic, of both human and zarakite, although the 'magic' part of it is only found in the dragon side of themselves, and the combination isn't a 50-50 split, despite any actual ratio being subjective.
+
+-----
+
+Krulickhe
+
+Krulickhe is a modern, present day nation of the 33rd century CE.
+
+-----
+
+Acrydia
+
+Acrydia is a suburban town on the west coast of Krulickhe, located in what was once an ancient region known as California, part of an old nation that existed centuries ago in North America known as the United States of America, or USA.
+
+-----
+
+George
+
+\P[1]'s father, George is a wealthy top executive of the corporation he works for, who reports directly to the company's CEO.
+
+-----
+
+Judy
+
+-----
+
+
+
+
+
+
+
