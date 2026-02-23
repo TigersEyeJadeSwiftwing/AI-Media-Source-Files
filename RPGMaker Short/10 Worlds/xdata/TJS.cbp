@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TJS" />
+		<Option platforms="" />
+		<Option pch_mode="2" />
+		<Option compiler="null" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/TJS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="null" />
+			</Target>
+		</Build>
+		<Unit filename="../js/main.js" />
+		<Unit filename="../js/plugins.js" />
+		<Unit filename="../js/plugins/DGN.js" />
+		<Unit filename="../js/plugins/DGN_actor.js" />
+		<Unit filename="../js/plugins/DGN_classes.js" />
+		<Unit filename="../js/plugins/DGN_core.js" />
+		<Unit filename="../js/plugins/DGN_database.js" />
+		<Unit filename="../js/plugins/DGN_dgn.js" />
+		<Unit filename="../js/plugins/DGN_final.js" />
+		<Unit filename="../js/plugins/DGN_functions.js" />
+		<Unit filename="../js/plugins/DGN_globals.js" />
+		<Unit filename="../js/plugins/DGN_managers.js" />
+		<Unit filename="../js/plugins/DGN_object.js" />
+		<Unit filename="../js/plugins/DGN_scene.js" />
+		<Unit filename="../js/plugins/DGN_system.js" />
+		<Unit filename="../js/plugins/DGN_window.js" />
+		<Unit filename="../js/rmmz_core.js" />
+		<Unit filename="../js/rmmz_managers.js" />
+		<Unit filename="../js/rmmz_objects.js" />
+		<Unit filename="../js/rmmz_scenes.js" />
+		<Unit filename="../js/rmmz_sprites.js" />
+		<Unit filename="../js/rmmz_windows.js" />
+		<Unit filename="../package.json" />
+		<Unit filename="notes.js" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
