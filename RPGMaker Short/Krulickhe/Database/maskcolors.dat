@@ -1,0 +1,204 @@
+## -- Mask colors database for the RPG Maker Extended Generator -- 
+## Manual modifications of this file can lead to crashes of the generator.
+0.68a
+25
+
+## ---------------------------------------
+MZ_Skin
+Skin color
+-409187
+True
+1
+Skin
+
+## ---------------------------------------
+MZ_Eyes
+Eyes color
+-13860661
+True
+1
+Eyes
+
+## ---------------------------------------
+MZ_Hair1
+Hair color 1
+-210166
+True
+1
+Hair
+
+## ---------------------------------------
+MZ_Hair2
+Hair color 2
+-4681019
+False
+1
+Hair
+
+## ---------------------------------------
+MZ_FMark
+Facial Mark color
+-16739690
+False
+1
+Clothes
+
+## ---------------------------------------
+MZ_BEar
+Beast Ear color
+-2896185
+False
+1
+Hair
+
+## ---------------------------------------
+MZ_Cloth1
+Clothing color 1
+-5339518
+False
+1
+Clothes
+
+## ---------------------------------------
+MZ_Cloth2
+Clothing color 2
+-90850
+False
+1
+Clothes
+
+## ---------------------------------------
+MZ_Cloth3
+Clothing color 3
+-14911792
+False
+1
+Clothes
+
+## ---------------------------------------
+MZ_Cloth4
+Clothing color 4
+-2513916
+False
+1
+Clothes
+
+## ---------------------------------------
+MZ_Cloak1
+Cloak color 1
+-2577408
+False
+1
+Clothes
+
+## ---------------------------------------
+MZ_Cloak2
+Cloak color 2
+-6093048
+False
+1
+Clothes
+
+## ---------------------------------------
+MZ_AccA1
+Accessory A color 1
+-2896190
+False
+1
+Clothes
+
+## ---------------------------------------
+MZ_AccA2
+Accessory A color 2
+-2476946
+False
+1
+Clothes
+
+## ---------------------------------------
+MZ_AccA3
+Accessory A color 3
+-5977839
+False
+1
+Clothes
+
+## ---------------------------------------
+MZ_AccB1
+Accessory B color 1
+-3701753
+False
+1
+Clothes
+
+## ---------------------------------------
+MZ_AccB2
+Accessory B color 2
+-4140078
+False
+1
+Clothes
+
+## ---------------------------------------
+MZ_AccB3
+Accessory B color 3
+-12495434
+False
+1
+Clothes
+
+## ---------------------------------------
+MZ_AccB4
+Accessory B color 4
+-4572347
+False
+1
+Clothes
+
+## ---------------------------------------
+MZ_Glasses1
+Glasses color 1
+-6710887
+False
+1
+Clothes
+
+## ---------------------------------------
+MZ_Glasses2
+Glasses color 2
+-3360046
+False
+1
+Clothes
+
+## ---------------------------------------
+MZ_Glasses3
+Glasses color 3
+-10453429
+False
+1
+Clothes
+
+## ---------------------------------------
+MZ_Tail
+Tail color
+-1648963
+False
+1
+Hair
+
+## ---------------------------------------
+MZ_Wing
+Wing color
+-5777706
+False
+1
+Clothes
+
+## ---------------------------------------
+MZ_Undies
+Undergarments color
+-11583172
+False
+1
+Clothes

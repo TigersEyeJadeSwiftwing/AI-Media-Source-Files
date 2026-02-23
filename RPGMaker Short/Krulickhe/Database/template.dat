@@ -1,0 +1,273 @@
+## -- Template database for the RPG Maker Extended Generator -- 
+## Manual modifications of this file can lead to crashes of the generator.
+0.68a
+4
+
+## ---------------------------------------
+## [FG] Face
+## ---------------------------------------
+FG
+Face
+0
+0
+144
+144
+4
+2
+Files
+20
+AccB
+Accessory 2
+Accessory 2
+Glasses
+Glasses
+Glasses
+FrontHair
+Front Hair
+Front Hair
+Cloak1
+Cloak, front part
+Cloak
+AccA
+Accessory 1
+Accessory 1
+BeastEars
+Beast Ears
+Beast Ears
+Beard
+Beard
+Beard
+Clothing1
+Clothes, in front of the face
+Clothing
+Ears
+Ears
+Ears
+RearHair1
+Rear hair but in front of body
+Rear Hair
+Eyebrows
+Eyebrows
+Eyebrows
+Eyes
+Eyes
+Eyes
+FacialMark
+Facial Mark
+Facial Mark
+Nose
+Nose
+Nose
+Mouth
+Mouth
+Mouth
+Face
+Face
+Face
+Clothing2
+Clothes, below the face
+Clothing
+Body
+Neck and Shoulders
+Body
+Cloak2
+Cloak, rear part
+Cloak
+RearHair2
+Rear hear behind body
+Rear Hair
+
+## ---------------------------------------
+## [TV] Character
+## ---------------------------------------
+TV
+Character
+0
+144
+144
+192
+4
+2
+Mask
+21
+Wing1
+Wing, sprites facing up
+Wing
+AccB
+Accessory 2
+Accessory 2
+FrontHair1
+Front Hair, sprites facing down/left/right
+Front Hair
+AccA
+Accessory 1
+Accessory 1
+RearHair1
+Rear Hair, sprites facing up
+Rear Hair
+Glasses
+Glasses
+Glasses
+Ears
+Ears
+Ears
+BeastEars
+Beast Ears
+Beast Ears
+Cloak1
+Cloak, sprites facing up
+Cloak
+Tail1
+Tail, sprites facing up
+Tail
+Clothing1
+Clothing (arms), sprites facing left/right
+Clothing
+Beard1
+Beard, sprites facing down/left/right
+Beard
+Clothing2
+Clothing, all sprites
+Clothing
+RearHair2
+Rear Hair, sprites facing down/left/right
+Rear Hair
+FacialMark
+Facial Mark
+Facial Mark
+Body
+Body
+Body
+Beard2
+Beard, sprites facing up
+Beard
+FrontHair2
+Front Hair, sprites facing up
+Front Hair
+Tail2
+Tail, sprites facing down/left/right
+Tail
+Cloak2
+Cloak, sprites facing down/left/right
+Cloak
+Wing2
+Wing, sprites facing down/left/right
+Wing
+
+## ---------------------------------------
+## [TVD] Damage
+## ---------------------------------------
+TVD
+Damage
+0
+336
+144
+48
+4
+8
+Mask
+14
+AccB
+Accessory 2
+Accessory 2
+FrontHair
+Front Hair
+Front Hair
+AccA
+Accessory 1
+Accessory 1
+Ears
+Ears
+Ears
+BeastEars
+Beast Ears
+Beast Ears
+RearHair
+Rear Hair
+Rear Hair
+Wing
+Wing
+Wing
+Glasses
+Glasses
+Glasses
+Cloak
+Cloak
+Cloak
+Tail
+Tail
+Tail
+Beard
+Beard
+Beard
+Clothing
+Clothing
+Clothing
+FacialMark
+Facial Mark
+Facial Mark
+Body
+Body
+Body
+
+## ---------------------------------------
+## [SV] Battler
+## ---------------------------------------
+SV
+Battler
+144
+0
+576
+384
+1
+1
+Mask
+16
+AccB
+Accessory 2
+Accessory 2
+FrontHair
+Front Hair
+Front Hair
+AccA
+Accessory 1
+Accessory 1
+Glasses
+Glasses
+Glasses
+Ears
+Ears
+Ears
+BeastEars
+Beast Ears
+Beast Ears
+Cloak1
+Cloak, in front of clothes
+Cloak
+Clothing1
+Clothing, front arm
+Clothing
+Beard
+Beard
+Beard
+Clothing2
+Clothing, body
+Clothing
+RearHair1
+Rear Hair
+Rear Hair
+FacialMark
+Facial Mark
+Facial Mark
+body
+Body
+Body
+Tail
+Tail
+Tail
+Cloak2
+Cloak, behind the body
+Cloak
+Wing
+Wing
+Wing
