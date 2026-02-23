@@ -1,0 +1,147 @@
+{
+  "PropagatedMaskColors": {
+    "MZ_Skin": "RMMZ Skin Color 14",
+    "MZ_Eyes": "RMMZ Eye Color 15",
+    "MZ_Hair1": "RMMZ Hair Color 39"
+  },
+  "Elements": [
+    {
+      "MaskColors": {},
+      "Offsets": {
+        "FG": {
+          "X": 0,
+          "Y": 0
+        },
+        "TV": {
+          "X": 0,
+          "Y": 0
+        },
+        "TVD": {
+          "X": 0,
+          "Y": 0
+        },
+        "SV": {
+          "X": 0,
+          "Y": 0
+        }
+      },
+      "Resource": "Imported_Male_Face_p01",
+      "TileOffsets": {
+        "FG": {},
+        "TV": {},
+        "TVD": {},
+        "SV": {}
+      },
+      "TileRotation": {
+        "FG": {},
+        "TV": {},
+        "TVD": {},
+        "SV": {}
+      }
+    },
+    {
+      "MaskColors": {
+        "MZ_Undies": "RMMZ Clothing Color 98"
+      },
+      "Offsets": {
+        "FG": {
+          "X": 0,
+          "Y": 0
+        },
+        "TV": {
+          "X": 0,
+          "Y": 0
+        },
+        "TVD": {
+          "X": 0,
+          "Y": 0
+        },
+        "SV": {
+          "X": 0,
+          "Y": 0
+        }
+      },
+      "Resource": "Imported_Male_Body_p01",
+      "TileOffsets": {
+        "FG": {},
+        "TV": {},
+        "TVD": {},
+        "SV": {}
+      },
+      "TileRotation": {
+        "FG": {},
+        "TV": {},
+        "TVD": {},
+        "SV": {}
+      }
+    },
+    {
+      "MaskColors": {},
+      "Offsets": {
+        "FG": {
+          "X": 0,
+          "Y": 0
+        },
+        "TV": {
+          "X": 0,
+          "Y": 0
+        },
+        "TVD": {
+          "X": 0,
+          "Y": 0
+        },
+        "SV": {
+          "X": 0,
+          "Y": 0
+        }
+      },
+      "Resource": "Imported_Male_RearHair_p01",
+      "TileOffsets": {
+        "FG": {},
+        "TV": {},
+        "TVD": {},
+        "SV": {}
+      },
+      "TileRotation": {
+        "FG": {},
+        "TV": {},
+        "TVD": {},
+        "SV": {}
+      }
+    },
+    {
+      "MaskColors": {},
+      "Offsets": {
+        "FG": {
+          "X": 0,
+          "Y": 0
+        },
+        "TV": {
+          "X": 0,
+          "Y": 0
+        },
+        "TVD": {
+          "X": 0,
+          "Y": 0
+        },
+        "SV": {
+          "X": 0,
+          "Y": 0
+        }
+      },
+      "Resource": "Imported_Male_FrontHair_p05",
+      "TileOffsets": {
+        "FG": {},
+        "TV": {},
+        "TVD": {},
+        "SV": {}
+      },
+      "TileRotation": {
+        "FG": {},
+        "TV": {},
+        "TVD": {},
+        "SV": {}
+      }
+    }
+  ]
+}

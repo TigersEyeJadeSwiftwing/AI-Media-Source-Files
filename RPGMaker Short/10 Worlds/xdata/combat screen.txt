@@ -1,0 +1,86 @@
+Actor Combat Actions:
+
+1 Weapon
+2 Magic
+3 Innate / Race Power
+4 Equipment
+5 Special
+6 Shared Item
+
+Top:
+1 Fight
+2 Flee
+
+Fight Menu:
+1 Last Action
+2 Weapon
+3 Innate / Race
+4 Magic
+5 Equipped Gear
+6 Carried Items
+7 Defend / Block
+8 Cancel
+
+Rage Assault
+Thunder War
+Cloud Warrior
+
+Dragon:
+"Physical", 0.8,
+"Bullets", 0.7,
+"Slashing", 0.8,
+"Piercing", 0.8,
+"Bludgeoning", 1.0,
+
+Half Dragon:
+"Physical", 0.9,
+"Bullets", 0.8,
+"Slashing", 0.9,
+"Piercing", 0.9,
+"Bludgeoning", 1.0,
+
+Orc:
+"Physical", 0.8,
+"Bullets", 0.8,
+"Slashing", 0.8,
+"Piercing", 0.8,
+"Bludgeoning", 0.8,
+
+Elf:
+"Physical", 1.0,
+"Bullets", 1.0,
+"Slashing", 1.0,
+"Piercing", 1.0,
+"Bludgeoning", 1.0,
+
+
+
+Shield bash attack
+
+orange hair
+Value 	32	0.25	252
+g	0	4.00	255
+r	0	5.00	255
+b	0	1.00	255
+
+CustomTjsReorderTypes
+
+Game_Actor.prototype.Skill = function(multiplier) {
+    return this.lerpItem(multiplier, multiplier * 10.0);
+};
+Game_Actor.prototype.EquippedItem = function(multiplier) {
+    return this.lerpItem(multiplier, multiplier * 10.0);
+};
+Game_Actor.prototype.EquippedItemCombat = function(multiplier) {
+    return this.lerpItem(multiplier, multiplier * 4.0);
+};
+Game_Actor.prototype.AttackShotgun = function(multiplier, opponent, opponent_defense)
+Game_Actor.prototype.AttackStatic = function(multiplier, opponent, opponent_defense)
+Game_Actor.prototype.AttackPhysical = function(multiplier, opponent, opponent_defense)
+Game_Actor.prototype.AttackMagical = function(multiplier, opponent, opponent_defense)
+Game_Actor.prototype.AttackCombo = function(multiplier, opponent, opponent_defense)
+Game_Actor.prototype.AttackAgility = function(multiplier, opponent, opponent_defense)
+
+
+
+
