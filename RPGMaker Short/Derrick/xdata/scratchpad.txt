@@ -1,0 +1,1036 @@
+$1.80 sucralose sweetener packets 100 count box
+$2.80 soy sauce
+$3.00 tall can quick oats
+
+this.changeTextColor( TJS_auto.CustomHpColor( actor.hp, actor.mhp ) );
+
+const values = actor.actionPlusSet().sort((a, b) => (b - a));
+
+mp 149 / 3194		4.665%		21.44x
+tp 1537
+
+mp 5980 / 1782082	0.33556256%	298.01x
+tp 114700
+
+mp 5980 / 216139	2.77%		36.14x
+tp 66550
+
+mp 21.44 / 298.01 = 1 / ~13.9
+tp 1537 / 114700 = ~ 1 / ~74.63
+
+mp 21.44 / 36.14 = 1 / ~1.686
+tp 1537 / 66550 = 1 / ~43.3
+
+
+tp 1161 / 13560 = 1 / ~11.68
+
+tjs_max_item_levels
+tjs_max_mp_cost_multiplier = 72.0;
+tjs_max_tp_cost_multiplier = 5.0;
+
+    var lev = ( $gameSystem.average_actor_level * (0.875 + (Math.random() * 0.25)) ) + $gameSystem.enemy_level_offset;
+    lev = lev.clamp( $gameSystem.min_enemy_level, $gameSystem.max_enemy_level );
+
+    this.level = lev.clamp( 1, 1000 );
+    this.level_factor = TJS_auto.Lerp( 1.00000, 50.00000, (this.level - 1).clamp( 0, tjs_max_monster_level * 1.5 ) / (tjs_max_monster_level - 1) );
+
+
+
+    var multiplier = ( (this.level - 1).clamp( 0, tjs_max_monster_level * 1.5 ) / (tjs_max_monster_level - 1) ).clamp( 0.00000, 1.00000 );
+    multiplier = 1.00000 - Math.pow( 1.00000 - multiplier, 3.25 );
+
+    const level = TJS_auto.Lerp( 1.0, tjs_max_monster_level, ($gameSystem.average_actor_level - 1).clamp( 0, tjs_max_character_level - 1 ) / (tjs_max_character_level - 1) );
+
+
+SceneManager.initGraphics = function() {
+    if (!Graphics.initialize()) {
+        throw new Error("Failed to initialize graphics.");
+    }
+    Graphics.setTickHandler(this.update.bind(this));
+};
+
+
+Flying Tiger
+hp 867 / 86,683
+mp 2,200 / 110,000
+strength 136 / 6,780
+defense 69 / 3,438
+mana 127 / 6,356
+magical defense 81 / 4,063
+agility 38 / 1,900
+magic focus 27 / 1,328
+luck 70 / 3,500
+
+Derrick
+hp 210 / 13,112			62.44x
+strength 240 / 16,365		68.19x
+defense 11 / 513		46.64x
+mana 12 / 590			49.17x
+magical defense 20 / 750	37.5x
+agility 31 / 1,440		46.45x
+magic focus 40 / 452		11.3x
+luck 104 / 6,237		59.97
+
+
+
+const TJS_TREASURE_PRIMARY_NONE = 2;
+const TJS_TREASURE_PRIMARY_COMMON = 3;
+const TJS_TREASURE_PRIMARY_UNCOMMON = 4;
+const TJS_TREASURE_PRIMARY_RARE = 5;
+const TJS_TREASURE_SECONDARY_COMMON = 6;
+const TJS_TREASURE_SECONDARY_UNCOMMON = 7;
+const TJS_TREASURE_SECONDARY_RARE = 8;
+
+const TJS_SPECIAL_BLANK = 1;
+const TJS_SPECIAL_DEBUG = 2;
+const TJS_SPECIAL_NOTE = 3;
+const TJS_SPECIAL_BROKEN = 4;
+const TJS_SPECIAL_NORMAL = 5;
+const TJS_SPECIAL_KEY_ITEM = 6;
+const TJS_SPECIAL_ENCHANTED = 8;
+const TJS_SPECIAL_FIRE = 10;
+const TJS_SPECIAL_ICE = 11;
+const TJS_SPECIAL_LIGHTNING = 12;
+const TJS_SPECIAL_METAL = 13;
+const TJS_SPECIAL_ACID = 14;
+const TJS_SPECIAL_WATER = 30;
+const TJS_SPECIAL_EARTH = 31;
+const TJS_SPECIAL_WIND = 32;
+const TJS_SPECIAL_DARKNESS = 35;
+const TJS_SPECIAL_IMMORTALITY = 36;
+const TJS_SPECIAL_MULTI_ELEMENTAL = 40;
+const TJS_SPECIAL_NATURE = 43;
+const TJS_SPECIAL_RAINBOW = 47;
+const TJS_SPECIAL_HASTED = 50;
+const TJS_SPECIAL_WEAPON_RUNE = 55;
+const TJS_SPECIAL_ARMOR_RUNE = 56;
+const TJS_SPECIAL_BLEEDING = 100;
+const TJS_SPECIAL_STUNNING = 110;
+const TJS_SPECIAL_ANTIMAGICAL = 120;
+const TJS_SPECIAL_WEAPON_REFLEX = 155;
+const TJS_SPECIAL_ARMOR_REFLEX = 156;
+const TJS_SPECIAL_POWER = 250;
+const TJS_SPECIAL_MAGIC_WAND = 300;
+const TJS_SPECIAL_HEALING_HP = 1000;
+const TJS_SPECIAL_HEALING_MP = 1010;
+const TJS_SPECIAL_HEALING_TP = 1020;
+const TJS_SPECIAL_HEALING_DEATH = 1100;
+const TJS_SPECIAL_HEALING_OTHER = 1200;
+const TJS_SPECIAL_CURATIVE_SPECIFIC = 1500;
+const TJS_SPECIAL_CURATIVE_OMNI = 1550;
+const TJS_SPECIAL_ABILITY_BOOST = 1600;
+const TJS_SPECIAL_ABILITY_GROW = 1700;
+const TJS_SPECIAL_POWER_UP_GENERIC = 1800;
+const TJS_SPECIAL_SPECIAL_PURPOSE = 1900;
+const TJS_SPECIAL_FOOD = 1950;
+const TJS_SPECIAL_MONSTER_DROP = 2000;
+const TJS_SPECIAL_TREASURE = 2500;
+const TJS_SPECIAL_ORB = 3000;
+const TJS_SPECIAL_ORB_SHARDS = 3100;
+const TJS_SPECIAL_CLASS_BOOK = 20000;
+const TJS_SPECIAL_RUNE = 22000;
+const TJS_SPECIAL_GEAR_MAGICAL_RING_MINOR = 60000;
+const TJS_SPECIAL_GEAR_MAGICAL_RING_MAJOR = 60010;
+const TJS_SPECIAL_GEAR_MAGICAL_RING_ULTRA = 60020;
+const TJS_SPECIAL_GEAR_MAGICAL_RING_LEVELED = 60050;
+
+DataManager.WriteTjsDataFiles();
+
+$gameSystem.ToggleCheats();
+$gameSystem.cheats_enabled
+
+Class.prototype.function_name = function(input_string) {
+    const TJS_ITEM_SPECIAL_RUNE = 22000;
+    input_string = "TJS_ITEM_SPECIAL_RUNE";
+    var value = 0;
+
+    try {
+        value = eval(input_string);
+        if ( isNaN(value) ) value = 1;
+    } catch (e) {
+        console.log( e );
+    }
+};
+
+
+Game_Enemy.prototype.itemObject = function(kind, dataId) { // Blagg
+    if (kind === 1) {
+        const item = $dataItems[dataId];
+        if ( item.has_levels == true ) {
+            const item_level = Math.round( TJS_auto.Lerp( 1, tjs_max_item_levels, ((this.level - 1) / (tjs_max_monster_level - 1)).clamp( 0.00000, 1.00000 ) ) );
+
+            return $dataItems[dataId + item_level - 1];
+        }
+
+        if ( item.level_count < 2 ) {
+            return item;
+        }
+
+        const item_level = Math.round(TJS_auto.LerpSkew( 1.00000, item.level_count, Math.random(), -0.72500 ));
+
+        return $dataItems[dataId + item_level - 1];
+    } else if (kind === 2) {
+        const item = $dataWeapons[dataId];
+        if ( item.has_levels == false )
+            return item;
+
+        const item_level = Math.round(TJS_auto.Lerp( 1, tjs_max_item_levels, ((this.level - 1) / (tjs_max_monster_level - 1)).clamp( 0.00000, 1.00000 ) ));
+
+        return $dataWeapons[dataId + item_level - 1];
+    } else if (kind === 3) {
+        const item = $dataArmors[dataId];
+        if ( item.has_levels == false )
+            return item;
+
+        const item_level = Math.round(TJS_auto.Lerp( 1, tjs_max_item_levels, ((this.level - 1) / (tjs_max_monster_level - 1)).clamp( 0.00000, 1.00000 ) ));
+
+        return $dataArmors[dataId + item_level - 1];
+    } else {
+        return null;
+    }
+};
+
+TJS.prototype.RemoveLevelName = function(text, level) {
+    if ( level >= tjs_item_level_names.length ) return text;
+
+    const removal_text = tjs_item_level_names[level] + " ";
+
+    if ( text.slice( 0, removal_text.length + 1 ).includes( removal_text ) )
+        return text.slice( removal_text.length );
+
+    return text;
+};
+
+{
+    if ( new_name.length < 1 ) {
+        this.popScene();
+
+        return;
+    }
+    else if ( new_name.length === "Turbo Twit" ) {
+        AudioManager.playSe( {name: 'tjs/triangle', volume: 98, pitch: 100, pan: 0} );
+        $gameSystem.ToggleCheats();
+
+        this.popScene();
+        return;
+    }
+    else if ( new_name.length === "DevDB" ) {
+        AudioManager.playSe( {name: 'tjs/triangle', volume: 98, pitch: 100, pan: 0} );
+        DataManager.WriteTjsDataFiles();
+
+        this.popScene();
+        return;
+    }
+    else if ( new_name.length === "DevPrepDB" ) {
+        AudioManager.playSe( {name: 'tjs/triangle', volume: 98, pitch: 100, pan: 0} );
+        DataManager.PrepareTjsDataFiles();
+
+        this.popScene();
+        return;
+    }
+};
+
+        if ( item.note.includes("<tjsEnemySkill>") == true ) continue;
+        if ( item.note.includes("<tjsSpecialSkill>") == true ) continue;
+        if ( item.note.includes("<tjsUnarmedCombat>") == true ) continue;
+        if ( item.note.includes("<tjsMiscellaneous>") == false ) continue;
+
+
+    // return StorageManager.exists(saveName);
+
+    // StorageManager.saveObject( filename, data );
+
+    // const json = StorageManager.objectToJson( object );
+    // StorageManager.fsWriteFile( path, json );
+
+const TJS_ITEM_TREASURE_TYPE_PRIMARY_NONE = 1;
+const TJS_ITEM_TREASURE_TYPE_PRIMARY_COMMON = 2;
+const TJS_ITEM_TREASURE_TYPE_PRIMARY_UNCOMMON = 3;
+const TJS_ITEM_TREASURE_TYPE_PRIMARY_RARE = 4;
+const TJS_ITEM_TREASURE_TYPE_SECONDARY_COMMON = 5;
+const TJS_ITEM_TREASURE_TYPE_SECONDARY_UNCOMMON = 6;
+const TJS_ITEM_TREASURE_TYPE_SECONDARY_RARE = 7;
+
+        if ( data.meta.tjsTreasurePrimaryNone ) data.treasure_type = TJS_ITEM_TREASURE_TYPE_PRIMARY_NONE;
+        if ( data.meta.tjsTreasurePrimaryCommon ) data.treasure_type = TJS_ITEM_TREASURE_TYPE_PRIMARY_COMMON;
+        if ( data.meta.tjsTreasurePrimaryUncommon ) data.treasure_type = TJS_ITEM_TREASURE_TYPE_PRIMARY_UNCOMMON;
+        if ( data.meta.tjsTreasurePrimaryRare ) data.treasure_type = TJS_ITEM_TREASURE_TYPE_PRIMARY_RARE;
+        if ( data.meta.tjsTreasureSecondaryCommon ) data.treasure_type = TJS_ITEM_TREASURE_TYPE_SECONDARY_COMMON;
+        if ( data.meta.tjsTreasureSecondaryUncommon ) data.treasure_type = TJS_ITEM_TREASURE_TYPE_SECONDARY_UNCOMMON;
+        if ( data.meta.tjsTreasureSecondaryRare ) data.treasure_type = TJS_ITEM_TREASURE_TYPE_SECONDARY_RARE;
+
+        if ( data.treasure_type == TJS_ITEM_TREASURE_TYPE_PRIMARY_NONE ) data.note += "<tjsTreasurePrimaryNone>\n";
+        if ( data.treasure_type == TJS_ITEM_TREASURE_TYPE_PRIMARY_COMMON ) data.note += "<tjsTreasurePrimaryCommon>\n";
+        if ( data.treasure_type == TJS_ITEM_TREASURE_TYPE_PRIMARY_UNCOMMON ) data.note += "<tjsTreasurePrimaryUncommon>\n";
+        if ( data.treasure_type == TJS_ITEM_TREASURE_TYPE_PRIMARY_RARE ) data.note += "<tjsTreasurePrimaryRare>\n";
+        if ( data.treasure_type == TJS_ITEM_TREASURE_TYPE_SECONDARY_COMMON ) data.note += "<tjsTreasureSecondaryCommon>\n";
+        if ( data.treasure_type == TJS_ITEM_TREASURE_TYPE_SECONDARY_UNCOMMON ) data.note += "<tjsTreasureSecondaryUncommon>\n";
+        if ( data.treasure_type == TJS_ITEM_TREASURE_TYPE_SECONDARY_RARE ) data.note += "<tjsTreasureSecondaryRare>\n";
+
+    for ( let i = 1; i < actors_size; i++ ) { // Bleck
+        var data = $dataActors[i];
+        data.description2 = "";
+        data.custom_traits = {
+            to_hit_physical_add: 0,
+            to_hit_physical_multiply: 1,
+            to_hit_magical_add: 0,
+            to_hit_magical_multiply: 1,
+            magic_focus_add: 0,
+            magic_focus_multiply: 1,
+            magic_focus_debuff_rate: 1,
+            max_tactical_points_add: 100,
+            max_tactical_points_multiply: 1,
+            physical_critical_hit_rate: 0.05,
+            magical_critical_hit_rate: 0.05,
+            physical_critical_evade_rate: 0,
+            magical_critical_evade_rate: 0,
+        };
+
+        for ( const trait of data.traits ) {
+            if ( (trait.code == Game_BattlerBase.TRAIT_XPARAM) && (trait.dataId == 0) ) {
+                data.custom_traits.to_hit_physical_add += trait.value;
+                data.custom_traits.to_hit_magical_add += trait.value;
+            }
+        }
+
+        if ( !data.meta ) continue;
+
+        if ( data.meta.tjsTraitsToHitPhysical ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsToHitPhysical );
+            data.custom_traits.to_hit_physical_add = data_array[0] * 0.01;
+            data.custom_traits.to_hit_physical_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsToHitMagical ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsToHitMagical );
+            data.custom_traits.to_hit_magical_add = data_array[0] * 0.01;
+            data.custom_traits.to_hit_magical_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsMagicFocus ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsMagicFocus );
+            data.custom_traits.magic_focus_add = data_array[0];
+            data.custom_traits.magic_focus_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsMagicFocusDebuff ) data.custom_traits.magic_focus_debuff_rate = Number( data.meta.tjsTraitsMagicFocusDebuff ) * 0.01;
+        if ( data.meta.tjsTraitsMaxTacticalPoints ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsMaxTacticalPoints );
+            data.custom_traits.max_tactical_points_add = data_array[0];
+            data.custom_traits.max_tactical_points_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsCriticalHitRate ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsCriticalHitRate );
+            data.custom_traits.physical_critical_hit_rate = data_array[0] * 0.01;
+            data.custom_traits.magical_critical_hit_rate = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsCriticalEvadeRate ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsCriticalEvadeRate );
+            data.custom_traits.physical_critical_evade_rate = data_array[0] * 0.01;
+            data.custom_traits.magical_critical_evade_rate = data_array[1] * 0.01;
+        }
+
+        if ( data.meta.tjsEquipPrimaryWeapon ) data.equips[ TJS_auto.GetIndexForEquipmentType("weapon") - 1 ] = Number( data.meta.tjsEquipPrimaryWeapon );
+        if ( data.meta.tjsEquipSecondaryWeapon ) data.equips[ TJS_auto.GetIndexForEquipmentType("2nd weapon") - 1 ] = Number( data.meta.tjsEquipSecondaryWeapon );
+        if ( data.meta.tjsEquipBackupWeapon ) data.equips[ TJS_auto.GetIndexForEquipmentType("backup weapon") - 1 ] = Number( data.meta.tjsEquipBackupWeapon );
+        if ( data.meta.tjsEquipBook ) data.equips[ TJS_auto.GetIndexForEquipmentType("book") - 1 ] = Number( data.meta.tjsEquipBook );
+        if ( data.meta.tjsEquipShield ) data.equips[ TJS_auto.GetIndexForEquipmentType("shield") - 1 ] = Number( data.meta.tjsEquipShield );
+        if ( data.meta.tjsEquipBelt ) data.equips[ TJS_auto.GetIndexForEquipmentType("belt") - 1 ] = Number( data.meta.tjsEquipBelt );
+        if ( data.meta.tjsEquipWristband ) data.equips[ TJS_auto.GetIndexForEquipmentType("wristband") - 1 ] = Number( data.meta.tjsEquipWristband );
+        if ( data.meta.tjsEquipGlove ) data.equips[ TJS_auto.GetIndexForEquipmentType("glove") - 1 ] = Number( data.meta.tjsEquipGlove );
+        if ( data.meta.tjsEquipSocks ) data.equips[ TJS_auto.GetIndexForEquipmentType("socks") - 1 ] = Number( data.meta.tjsEquipSocks );
+        if ( data.meta.tjsEquipShoes ) data.equips[ TJS_auto.GetIndexForEquipmentType("shoes") - 1 ] = Number( data.meta.tjsEquipShoes );
+        if ( data.meta.tjsEquipNecklace ) data.equips[ TJS_auto.GetIndexForEquipmentType("necklace") - 1 ] = Number( data.meta.tjsEquipNecklace );
+        if ( data.meta.tjsEquipBracelet ) data.equips[ TJS_auto.GetIndexForEquipmentType("bracelet") - 1 ] = Number( data.meta.tjsEquipBracelet );
+        if ( data.meta.tjsEquipEarring ) data.equips[ TJS_auto.GetIndexForEquipmentType("earring") - 1 ] = Number( data.meta.tjsEquipEarring );
+        if ( data.meta.tjsEquipRing ) data.equips[ TJS_auto.GetIndexForEquipmentType("ring") - 1 ] = Number( data.meta.tjsEquipRing );
+        if ( data.meta.tjsEquipAccessory ) data.equips[ TJS_auto.GetIndexForEquipmentType("accessory") - 1 ] = Number( data.meta.tjsEquipAccessory );
+
+        if ( data.meta.tjsInfo ) data.profile = ( data.meta.tjsInfo );
+        if ( data.meta.tjsInfo2 ) data.description2 = ( data.meta.tjsInfo2 );
+    }
+
+    for ( let i = 1; i < enemies_size; i++ ) { // Blagg
+        var data = $dataEnemies[i];
+        data.encounter_categories = [];
+        data.skill_rules = [];
+        data.flying = false;
+        data.profile = "";
+        data.description2 = "";
+        data.initial_tp = 50;
+        data.attack_levels = [100];
+        data.custom_traits = {
+            to_hit_physical_add: 0,
+            to_hit_physical_multiply: 1,
+            to_hit_magical_add: 0,
+            to_hit_magical_multiply: 1,
+            magic_focus_add: 1,
+            magic_focus_multiply: 1,
+            magic_focus_debuff_rate: 1,
+            max_tactical_points_add: 100,
+            max_tactical_points_multiply: 1,
+            physical_critical_hit_rate: 0.05,
+            magical_critical_hit_rate: 0.05,
+            physical_critical_evade_rate: 0,
+            magical_critical_evade_rate: 0,
+        };
+
+        for ( const trait of data.traits ) {
+            if ( (trait.code == Game_BattlerBase.TRAIT_XPARAM) && (trait.dataId == 0) ) {
+                data.custom_traits.to_hit_physical_add += trait.value;
+                data.custom_traits.to_hit_magical_add += trait.value;
+            }
+        }
+
+        if ( !data.meta ) continue;
+
+        if ( data.meta.tjsTraitsToHitPhysical ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsToHitPhysical );
+            data.custom_traits.to_hit_physical_add = data_array[0] * 0.01;
+            data.custom_traits.to_hit_physical_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsToHitMagical ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsToHitMagical );
+            data.custom_traits.to_hit_magical_add = data_array[0] * 0.01;
+            data.custom_traits.to_hit_magical_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsMagicFocus ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsMagicFocus );
+            data.custom_traits.magic_focus_add = data_array[0];
+            data.custom_traits.magic_focus_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsMagicFocusDebuff ) data.custom_traits.magic_focus_debuff_rate = Number( data.meta.tjsTraitsMagicFocusDebuff ) * 0.01;
+        if ( data.meta.tjsTraitsMaxTacticalPoints ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsMaxTacticalPoints );
+            data.custom_traits.max_tactical_points_add = data_array[0];
+            data.custom_traits.max_tactical_points_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsCriticalHitRate ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsCriticalHitRate );
+            data.custom_traits.physical_critical_hit_rate = data_array[0] * 0.01;
+            data.custom_traits.magical_critical_hit_rate = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsCriticalEvadeRate ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsCriticalEvadeRate );
+            data.custom_traits.physical_critical_evade_rate = data_array[0] * 0.01;
+            data.custom_traits.magical_critical_evade_rate = data_array[1] * 0.01;
+        }
+
+        data.params[0] *= tjs_enemy_hp_adjust * tjs_master_hp_adjust;
+        data.params[1] *= tjs_enemy_mp_adjust;
+        data.params[2] *= tjs_enemy_strength_adjust;
+        data.params[3] *= tjs_enemy_defense_adjust;
+        data.params[4] *= tjs_enemy_mana_adjust;
+        data.params[5] *= tjs_enemy_magic_defense_adjust;
+        data.params[6] *= tjs_enemy_agility_adjust;
+        data.custom_traits.magic_focus_add *= tjs_enemy_magic_focus_adjust;
+        data.params[7] *= tjs_enemy_luck_adjust;
+
+        if ( data.meta.tjsFlying ) data.flying = true;
+        if ( data.meta.tjsInitTp ) data.initial_tp = Number( data.meta.tjsInitTp );
+        if ( data.meta.tjsAttackLevels ) data.attack_levels = JSON.parse( data.meta.tjsAttackLevels );
+
+        const categories = ( data.meta.tjsEncounterCategories ) ? JSON.parse( data.meta.tjsEncounterCategories ) : [];
+        for ( const category of categories ) {
+            data.encounter_categories.push( TJS_auto.GetCategoryNumberFromText(category) );
+        }
+
+        if ( data.meta.tjsSkillRules ) {
+            const rule_list = JSON.parse( data.meta.tjsSkillRules );
+
+            var list_data_index = 0;
+            var finished = false;
+
+            while ( finished == false ) {
+                if ( (rule_list.length - 1) < (list_data_index + 1) ) {
+                    finished = true;
+
+                    break;
+                }
+
+                var rule_skill_index = rule_list[list_data_index];
+                var rule_rule_type_text = rule_list[list_data_index + 1];
+                var rule_rule_type = 0;
+                var number_elements = 2;
+
+                if ( rule_rule_type_text === "enemy grade" ) {
+                    rule_rule_type = TJS_ENEMY_SKILL_RULE_ENEMY_GRADE;
+                    number_elements = 4;
+                }
+                else if ( rule_rule_type_text === "party level" ) {
+                    rule_rule_type = TJS_ENEMY_SKILL_RULE_PARTY_LEVEL;
+                    number_elements = 4;
+                }
+                else if ( rule_rule_type_text === "tp level" ) {
+                    rule_rule_type = TJS_ENEMY_SKILL_RULE_TP_LEVEL;
+                    number_elements = 4;
+                }
+                else {
+                    finished = true;
+
+                    break;
+                }
+
+                if ( (rule_list.length - 1) < (list_data_index + number_elements - 1) ) {
+                    finished = true;
+
+                    break;
+                }
+
+                if ( rule_rule_type_text === "enemy grade" ) {
+                    var rule = {};
+                    rule.skill_index = rule_skill_index;
+                    rule.type = rule_rule_type;
+                    rule.grade_min = rule_list[list_data_index + 2];
+                    rule.grade_max = rule_list[list_data_index + 3];
+
+                    data.skill_rules.push( rule );
+                    list_data_index += 4;
+                }
+                else if ( rule_rule_type_text === "party level" ) {
+                    var rule = {};
+                    rule.skill_index = rule_skill_index;
+                    rule.type = rule_rule_type;
+                    rule.level_min = rule_list[list_data_index + 2];
+                    rule.level_max = rule_list[list_data_index + 3];
+
+                    data.skill_rules.push( rule );
+                    list_data_index += 4;
+                }
+                else if ( rule_rule_type_text === "tp level" ) {
+                    var rule = {};
+                    rule.skill_index = rule_skill_index;
+                    rule.type = rule_rule_type;
+                    rule.tp_min = rule_list[list_data_index + 2];
+                    rule.tp_max = rule_list[list_data_index + 3];
+
+                    data.skill_rules.push( rule );
+                    list_data_index += 4;
+                }
+            }
+        }
+
+        if ( data.meta.tjsInfo ) data.profile = data.meta.tjsInfo;
+        if ( data.meta.tjsInfo2 ) data.description2 = data.meta.tjsInfo2;
+    }
+
+    for ( let i = 1; i < classes_size; i++ ) {
+        var data = $dataClasses[i];
+        data.custom_traits = {
+            to_hit_physical_add: 0,
+            to_hit_physical_multiply: 1,
+            to_hit_magical_add: 0,
+            to_hit_magical_multiply: 1,
+            magic_focus_add: 0,
+            magic_focus_multiply: 1,
+            magic_focus_debuff_rate: 1,
+            max_tactical_points_add: 0,
+            max_tactical_points_multiply: 1,
+            physical_critical_hit_rate: 0,
+            magical_critical_hit_rate: 0,
+            physical_critical_evade_rate: 0,
+            magical_critical_evade_rate: 0,
+        };
+
+        for ( const trait of data.traits ) {
+            if ( (trait.code == Game_BattlerBase.TRAIT_XPARAM) && (trait.dataId == 0) ) {
+                data.custom_traits.to_hit_physical_add += trait.value;
+                data.custom_traits.to_hit_magical_add += trait.value;
+            }
+        }
+
+        if ( !data.meta ) continue;
+
+        if ( data.meta.tjsTraitsToHitPhysical ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsToHitPhysical );
+            data.custom_traits.to_hit_physical_add = data_array[0] * 0.01;
+            data.custom_traits.to_hit_physical_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsToHitMagical ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsToHitMagical );
+            data.custom_traits.to_hit_magical_add = data_array[0] * 0.01;
+            data.custom_traits.to_hit_magical_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsMagicFocus ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsMagicFocus );
+            data.custom_traits.magic_focus_add = data_array[0];
+            data.custom_traits.magic_focus_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsMagicFocusDebuff ) data.custom_traits.magic_focus_debuff_rate = Number( data.meta.tjsTraitsMagicFocusDebuff ) * 0.01;
+        if ( data.meta.tjsTraitsMaxTacticalPoints ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsMaxTacticalPoints );
+            data.custom_traits.max_tactical_points_add = data_array[0];
+            data.custom_traits.max_tactical_points_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsCriticalHitRate ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsCriticalHitRate );
+            data.custom_traits.physical_critical_hit_rate = data_array[0] * 0.01;
+            data.custom_traits.magical_critical_hit_rate = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsCriticalEvadeRate ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsCriticalEvadeRate );
+            data.custom_traits.physical_critical_evade_rate = data_array[0] * 0.01;
+            data.custom_traits.magical_critical_evade_rate = data_array[1] * 0.01;
+        }
+    }
+
+    for ( let i = 1; i < weapons_size; i++ ) {
+        var data = $dataWeapons[i];
+        data.level = 1;
+        data.description2 = "";
+        data.durability = -5000;
+        data.max_count = tjs_max_items;
+        data.leveled_by_chapter_price = false;
+        data.has_levels = false;
+        data.weapon_type = 0; // NA.
+        data.armor_type = 0; // NA.
+        data.equip_type = 1; // Weapon.
+        data.treasure_type = TJS_ITEM_TREASURE_TYPE_PRIMARY_NONE;
+        data.custom_traits = {
+            to_hit_physical_add: 0,
+            to_hit_physical_multiply: 1,
+            to_hit_magical_add: 0,
+            to_hit_magical_multiply: 1,
+            magic_focus_add: 0,
+            magic_focus_multiply: 1,
+            magic_focus_debuff_rate: 1,
+            max_tactical_points_add: 0,
+            max_tactical_points_multiply: 1,
+            physical_critical_hit_rate: 0,
+            magical_critical_hit_rate: 0,
+            physical_critical_evade_rate: 0,
+            magical_critical_evade_rate: 0,
+        };
+
+        for ( const trait of data.traits ) {
+            if ( (trait.code == Game_BattlerBase.TRAIT_XPARAM) && (trait.dataId == 0) ) {
+                data.custom_traits.to_hit_physical_add += trait.value;
+                data.custom_traits.to_hit_magical_add += trait.value;
+            }
+        }
+
+        if ( !data.meta ) continue;
+
+        if ( data.meta.tjsWeaponLevel ) data.level = Number( data.meta.tjsWeaponLevel );
+        if ( data.meta.tjsBookLevel ) data.level = Number( data.meta.tjsBookLevel );
+        if ( data.meta.tjsItemLevel ) data.level = Number( data.meta.tjsItemLevel );
+        if ( data.meta.tjsLevel ) data.level = Number( data.meta.tjsLevel );
+
+        if ( data.meta.tjsGroup ) data.has_levels = true;
+
+        if ( data.meta.tjsTraitsToHitPhysical ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsToHitPhysical );
+            data.custom_traits.to_hit_physical_add = data_array[0] * 0.01;
+            data.custom_traits.to_hit_physical_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsToHitMagical ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsToHitMagical );
+            data.custom_traits.to_hit_magical_add = data_array[0] * 0.01;
+            data.custom_traits.to_hit_magical_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsMagicFocus ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsMagicFocus );
+            data.custom_traits.magic_focus_add = data_array[0];
+            data.custom_traits.magic_focus_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsMagicFocusDebuff ) data.custom_traits.magic_focus_debuff_rate = Number( data.meta.tjsTraitsMagicFocusDebuff ) * 0.01;
+        if ( data.meta.tjsTraitsMaxTacticalPoints ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsMaxTacticalPoints );
+            data.custom_traits.max_tactical_points_add = data_array[0];
+            data.custom_traits.max_tactical_points_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsCriticalHitRate ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsCriticalHitRate );
+            data.custom_traits.physical_critical_hit_rate = data_array[0] * 0.01;
+            data.custom_traits.magical_critical_hit_rate = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsCriticalEvadeRate ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsCriticalEvadeRate );
+            data.custom_traits.physical_critical_evade_rate = data_array[0] * 0.01;
+            data.custom_traits.magical_critical_evade_rate = data_array[1] * 0.01;
+        }
+
+        if ( data.meta.tjsWeaponType ) data.durability = TJS_auto.GetNumberOfUsesForWeaponAuto( data.meta.tjsWeaponType );
+        if ( data.meta.tjsWeaponDurability ) {
+            if ( data.meta.tjsWeaponDurability !== "auto" ) data.durability = Number( data.meta.tjsWeaponDurability );
+        }
+        if ( data.meta.tjsDurability ) {
+            if ( data.meta.tjsDurability !== "auto" ) data.durability = Number( data.meta.tjsDurability );
+        }
+        if ( data.meta.tjsMaxCount ) data.max_count = Number( data.meta.tjsMaxCount );
+        if ( (data.meta.tjsLeveledByChapterPrice) || (data.meta.tjsWeapon) || (data.meta.tjsGear) || (data.meta.tjsArmor) || (data.meta.tjsBook) ) data.leveled_by_chapter_price = true;
+
+        if ( data.meta.tjsWeaponType ) data.weapon_type = TJS_auto.GetIndexForWeaponType( data.meta.tjsWeaponType );
+        if ( data.meta.tjsArmorType ) data.armor_type = TJS_auto.GetIndexForArmorType( data.meta.tjsArmorType );
+        if ( data.meta.tjsEquipType ) data.equip_type = TJS_auto.GetIndexForEquipmentType( data.meta.tjsEquipType );
+        if ( data.meta.tjsGearType ) data.equip_type = TJS_auto.GetIndexForEquipmentType( data.meta.tjsGearType );
+        if ( data.meta.tjsWeaponType ) data.custom_traits.max_tactical_points_multiply += TJS_auto.GetTpAdjustedMaximumForWeaponAuto( data.meta.tjsWeaponType ) - 1;
+
+        data.params[0] *= tjs_master_hp_adjust;
+
+        if ( data.meta.tjsInfo ) data.description = ( data.meta.tjsInfo );
+        if ( data.meta.tjsInfo2 ) data.description2 = ( data.meta.tjsInfo2 );
+    }
+
+    for ( let i = 1; i < armors_size; i++ ) {
+        var data = $dataArmors[i];
+        data.level = 1;
+        data.description2 = "";
+        data.durability = -5000;
+        data.max_count = tjs_max_items;
+        data.leveled_by_chapter_price = false;
+        data.has_levels = false;
+        data.weapon_type = 0; // NA.
+        data.armor_type = 0; // NA.
+        data.equip_type = 0; // NA.
+        data.treasure_type = TJS_ITEM_TREASURE_TYPE_PRIMARY_NONE;
+        data.custom_traits = {
+            to_hit_physical_add: 0,
+            to_hit_physical_multiply: 1,
+            to_hit_magical_add: 0,
+            to_hit_magical_multiply: 1,
+            magic_focus_add: 0,
+            magic_focus_multiply: 1,
+            magic_focus_debuff_rate: 1,
+            max_tactical_points_add: 0,
+            max_tactical_points_multiply: 1,
+            physical_critical_hit_rate: 0,
+            magical_critical_hit_rate: 0,
+            physical_critical_evade_rate: 0,
+            magical_critical_evade_rate: 0,
+        };
+
+        for ( const trait of data.traits ) {
+            if ( (trait.code == Game_BattlerBase.TRAIT_XPARAM) && (trait.dataId == 0) ) {
+                data.custom_traits.to_hit_physical_add += trait.value;
+                data.custom_traits.to_hit_magical_add += trait.value;
+            }
+        }
+
+        if ( !data.meta ) continue;
+
+        if ( data.meta.tjsWeaponLevel ) data.level = Number( data.meta.tjsWeaponLevel );
+        if ( data.meta.tjsBookLevel ) data.level = Number( data.meta.tjsBookLevel );
+        if ( data.meta.tjsItemLevel ) data.level = Number( data.meta.tjsItemLevel );
+        if ( data.meta.tjsLevel ) data.level = Number( data.meta.tjsLevel );
+
+        if ( data.meta.tjsGroup ) data.has_levels = true;
+
+        if ( data.meta.tjsTraitsToHitPhysical ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsToHitPhysical );
+            data.custom_traits.to_hit_physical_add = data_array[0] * 0.01;
+            data.custom_traits.to_hit_physical_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsToHitMagical ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsToHitMagical );
+            data.custom_traits.to_hit_magical_add = data_array[0] * 0.01;
+            data.custom_traits.to_hit_magical_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsMagicFocus ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsMagicFocus );
+            data.custom_traits.magic_focus_add = data_array[0];
+            data.custom_traits.magic_focus_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsMagicFocusDebuff ) data.custom_traits.magic_focus_debuff_rate = Number( data.meta.tjsTraitsMagicFocusDebuff ) * 0.01;
+        if ( data.meta.tjsTraitsMaxTacticalPoints ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsMaxTacticalPoints );
+            data.custom_traits.max_tactical_points_add = data_array[0];
+            data.custom_traits.max_tactical_points_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsCriticalHitRate ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsCriticalHitRate );
+            data.custom_traits.physical_critical_hit_rate = data_array[0] * 0.01;
+            data.custom_traits.magical_critical_hit_rate = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsCriticalEvadeRate ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsCriticalEvadeRate );
+            data.custom_traits.physical_critical_evade_rate = data_array[0] * 0.01;
+            data.custom_traits.magical_critical_evade_rate = data_array[1] * 0.01;
+        }
+
+        if ( data.meta.tjsWeaponType ) data.weapon_type = TJS_auto.GetIndexForWeaponType( data.meta.tjsWeaponType );
+        if ( data.meta.tjsArmorType ) data.armor_type = TJS_auto.GetIndexForArmorType( data.meta.tjsArmorType );
+        if ( data.meta.tjsEquipType ) data.equip_type = TJS_auto.GetIndexForEquipmentType( data.meta.tjsEquipType );
+        if ( data.meta.tjsGearType ) data.equip_type = TJS_auto.GetIndexForEquipmentType( data.meta.tjsGearType );
+        if ( (data.meta.tjsArmorType) && (data.meta.tjsEquipType) ) data.custom_traits.max_tactical_points_multiply += TJS_auto.GetTpAdjustedMaximumForGearAuto( data.meta.tjsEquipType, data.meta.tjsArmorType ) - 1;
+        if ( (data.meta.tjsArmorType) && (data.meta.tjsGearType) ) data.custom_traits.max_tactical_points_multiply += TJS_auto.GetTpAdjustedMaximumForGearAuto( data.meta.tjsGearType, data.meta.tjsArmorType ) - 1;
+
+        if ( (data.meta.tjsArmorType) && (data.meta.tjsEquipType) ) data.durability = TJS_auto.GetNumberOfUsesForArmorAuto( data.meta.tjsArmorType, data.meta.tjsEquipType );
+        if ( (data.meta.tjsArmorType) && (data.meta.tjsGearType) ) data.durability = TJS_auto.GetNumberOfUsesForArmorAuto( data.meta.tjsArmorType, data.meta.tjsGearType );
+        if ( data.meta.tjsWeaponDurability ) {
+            if ( data.meta.tjsWeaponDurability !== "auto" ) data.durability = Number( data.meta.tjsWeaponDurability );
+        }
+        if ( data.meta.tjsDurability ) {
+            if ( data.meta.tjsDurability !== "auto" ) data.durability = Number( data.meta.tjsDurability );
+        }
+        if ( data.meta.tjsMaxCount ) data.max_count = Number( data.meta.tjsMaxCount );
+        if ( (data.meta.tjsLeveledByChapterPrice) || (data.meta.tjsWeapon) || (data.meta.tjsGear) || (data.meta.tjsArmor) || (data.meta.tjsBook) ) data.leveled_by_chapter_price = true;
+
+        data.params[0] *= tjs_master_hp_adjust;
+
+        if ( data.meta.tjsInfo ) data.description = ( data.meta.tjsInfo );
+        if ( data.meta.tjsInfo2 ) data.description2 = ( data.meta.tjsInfo2 );
+    }
+
+    for ( let i = 1; i < items_size; i++ ) {
+        var data = $dataItems[i];
+        data.level = 1;
+        data.description2 = "";
+        data.aim_adjust = 0;
+        data.weapon_type = 0; // NA.
+        data.armor_type = 0; // NA.
+        data.equip_type = 0; // NA.
+        data.treasure_type = TJS_ITEM_TREASURE_TYPE_PRIMARY_NONE;
+        data.skill_type_name = "";
+        data.max_count = tjs_max_items;
+        data.leveled_by_chapter_price = false;
+        data.has_levels = false;
+        data.level_count = 1;
+        data.food_price = 0;
+        data.priority = 9;
+        data.ranged = false;
+        data.half_physical = 1;
+        data.message1 = "";
+        data.message2 = "";
+        data.auto_message = TJS_SKILL_MESSAGE_CUSTOM;
+        data.custom_effects = {
+            apply_buff_magic_focus: 0,
+            apply_debuff_magic_focus: 0,
+            remove_buff_magic_focus: false,
+            remove_debuff_magic_focus: false,
+            alter_tactical_points: 0,
+            alter_magic_focus: 0,
+        };
+
+        if ( !data.meta ) continue;
+        if ( data.meta.tjsArmorLevel ) data.level = Number( data.meta.tjsArmorLevel );
+        if ( data.meta.tjsWeaponLevel ) data.level = Number( data.meta.tjsWeaponLevel );
+        if ( data.meta.tjsBookLevel ) data.level = Number( data.meta.tjsBookLevel );
+        if ( data.meta.tjsItemLevel ) data.level = Number( data.meta.tjsItemLevel );
+        if ( data.meta.tjsLevel ) data.level = Number( data.meta.tjsLevel );
+
+        if ( data.meta.tjsSkillTypeName ) data.skill_type_name = data.meta.tjsSkillTypeName;
+        if ( data.meta.tjsSkillTypeNamePrepend ) data.skill_type_name = data.meta.tjsSkillTypeNamePrepend + " " + data.skill_type_name;
+
+        if ( data.meta.tjsGroup ) data.has_levels = true;
+        if ( data.meta.tjsLevelCount ) data.level_count = Number( data.meta.tjsLevelCount );
+        if ( data.meta.tjsMaxCount ) data.max_count = Number( data.meta.tjsMaxCount );
+
+        if ( data.meta.tjsEffectsBuffMagicFocus ) data.custom_effects.apply_buff_magic_focus = Number( data.meta.tjsBuffMagicFocus );
+        if ( data.meta.tjsEffectsDebuffMagicFocus ) data.custom_effects.apply_debuff_magic_focus = Number( data.meta.tjsDebuffMagicFocus );
+        if ( data.meta.tjsEffectsRemoveBuffMagicFocus ) data.custom_effects.remove_buff_magic_focus = true;
+        if ( data.meta.tjsEffectsRemoveDebuffMagicFocus ) data.custom_effects.remove_debuff_magic_focus = true;
+        if ( data.meta.tjsEffectsAlterTacticalPoints ) data.custom_effects.alter_tactical_points = Number( data.meta.tjsEffectsAlterTacticalPoints );
+        if ( data.meta.tjsEffectsAlterMagicFocus ) data.custom_effects.alter_magic_focus = Number( data.meta.tjsEffectsAlterMagicFocus );
+
+        if ( data.meta.tjsWeaponType ) data.weapon_type = TJS_auto.GetIndexForWeaponType( data.meta.tjsWeaponType );
+        if ( data.meta.tjsArmorType ) data.armor_type = TJS_auto.GetIndexForArmorType( data.meta.tjsArmorType );
+        if ( data.meta.tjsEquipType ) data.equip_type = TJS_auto.GetIndexForEquipmentType( data.meta.tjsEquipType );
+        if ( data.meta.tjsGearType ) data.equip_type = TJS_auto.GetIndexForEquipmentType( data.meta.tjsGearType );
+        if ( (data.meta.tjsArmorType) && (data.meta.tjsEquipType) ) data.custom_traits.max_tactical_points_multiply += TJS_auto.GetTpAdjustedMaximumForGearAuto( data.meta.tjsEquipType, data.meta.tjsArmorType ) - 1;
+        if ( (data.meta.tjsArmorType) && (data.meta.tjsGearType) ) data.custom_traits.max_tactical_points_multiply += TJS_auto.GetTpAdjustedMaximumForGearAuto( data.meta.tjsGearType, data.meta.tjsArmorType ) - 1;
+
+        if ( (data.meta.tjsLeveledByChapterPrice) || (data.meta.tjsWeapon) || (data.meta.tjsGear) || (data.meta.tjsArmor) || (data.meta.tjsBook) ) data.leveled_by_chapter_price = true;
+        if ( data.meta.tjsAimAdjust ) data.aim_adjust = Number( data.meta.tjsAimAdjust );
+        if ( data.meta.tjsFoodPrice ) data.food_price = Number( data.meta.tjsFoodPrice );
+        if ( data.meta.tjsPriority ) data.priority = Number( data.meta.tjsPriority );
+        if ( data.meta.tjsRanged ) data.ranged = true;
+        if ( data.meta.tjsMessageOverride1 ) data.message1 = data.meta.tjsMessageOverride1;
+        if ( data.meta.tjsMessageOverride2 ) data.message2 = data.meta.tjsMessageOverride2;
+        if ( data.meta.tjsMessageCustom ) data.auto_message = TJS_SKILL_MESSAGE_CUSTOM;
+        if ( data.meta.tjsMessageUses ) data.auto_message = TJS_SKILL_MESSAGE_USES;
+        if ( data.meta.tjsMessageAttacks ) data.auto_message = TJS_SKILL_MESSAGE_ATTACKS;
+        if ( data.meta.tjsMessageAttacksWith ) data.auto_message = TJS_SKILL_MESSAGE_ATTACKS_WITH;
+        if ( data.meta.tjsMessageCasts ) data.auto_message = TJS_SKILL_MESSAGE_CASTS;
+        if ( data.meta.tjsTpGain ) data.tpGain = Number( data.meta.tjsTpGain );
+
+        if ( data.meta.tjsInfo ) data.description = ( data.meta.tjsInfo );
+        if ( data.meta.tjsInfo2 ) data.description2 = ( data.meta.tjsInfo2 );
+    }
+
+    for ( let i = 1; i < skills_size; i++ ) {
+        var data = $dataSkills[i];
+        data.aim_adjust = 0;
+        data.weapon_type = 0; // NA.
+        data.armor_type = 0; // NA.
+        data.equip_type = 0; // NA.
+        data.skill_type_name = "";
+        data.priority = 9;
+        data.ranged = false;
+        data.durability_uses = 1;
+        data.half_physical = 1;
+        data.auto_message = TJS_SKILL_MESSAGE_CUSTOM;
+        data.show_level = false;
+        data.group_start = -1;
+        data.custom_effects = {
+            apply_buff_magic_focus: 0,
+            apply_debuff_magic_focus: 0,
+            remove_buff_magic_focus: false,
+            remove_debuff_magic_focus: false,
+            alter_tactical_points: 0,
+            alter_magic_focus: 0,
+        };
+
+        if ( !data.meta ) continue;
+        if ( data.meta.tjsWeaponType ) data.weapon_type = TJS_auto.GetIndexForWeaponType( data.meta.tjsWeaponType );
+        if ( data.meta.tjsArmorType ) data.armor_type = TJS_auto.GetIndexForArmorType( data.meta.tjsArmorType );
+        if ( data.meta.tjsEquipType ) data.equip_type = TJS_auto.GetIndexForEquipmentType( data.meta.tjsEquipType );
+        if ( data.meta.tjsGearType ) data.equip_type = TJS_auto.GetIndexForEquipmentType( data.meta.tjsGearType );
+
+        data.skill_type_name = TJS_auto.GetSkillTypeNameAuto( data.weapon_type, data.armor_type, data.equip_type );
+        if ( data.meta.tjsSkillTypeName ) data.skill_type_name = data.meta.tjsSkillTypeName;
+        if ( data.meta.tjsSkillTypeNamePrepend ) data.skill_type_name = data.meta.tjsSkillTypeNamePrepend + " " + data.skill_type_name;
+
+        if ( data.meta.tjsEffectsBuffMagicFocus ) data.custom_effects.apply_buff_magic_focus = Number( data.meta.tjsBuffMagicFocus );
+        if ( data.meta.tjsEffectsDebuffMagicFocus ) data.custom_effects.apply_debuff_magic_focus = Number( data.meta.tjsDebuffMagicFocus );
+        if ( data.meta.tjsEffectsRemoveBuffMagicFocus ) data.custom_effects.remove_buff_magic_focus = true;
+        if ( data.meta.tjsEffectsRemoveDebuffMagicFocus ) data.custom_effects.remove_debuff_magic_focus = true;
+        if ( data.meta.tjsEffectsAlterTacticalPoints ) data.custom_effects.alter_tactical_points = Number( data.meta.tjsEffectsAlterTacticalPoints );
+        if ( data.meta.tjsEffectsAlterMagicFocus ) data.custom_effects.alter_magic_focus = Number( data.meta.tjsEffectsAlterMagicFocus );
+
+        var skill_equip_type = "none";
+        var skill_weapon_type = "none";
+        var skill_armor_type = "none";
+        if ( data.meta.tjsEquipType ) skill_equip_type = data.meta.tjsEquipType;
+        if ( data.meta.tjsGearType ) skill_equip_type = data.meta.tjsGearType;
+        if ( data.meta.tjsWeaponType ) skill_weapon_type = data.meta.tjsWeaponType;
+        if ( data.meta.tjsArmorType ) skill_armor_type = data.meta.tjsArmorType;
+
+        data.aim_adjust = TJS_auto.GetAimAdjustForSkill( skill_equip_type, skill_weapon_type, skill_armor_type );
+        if ( data.meta.tjsAimAdjust ) data.aim_adjust += Number( data.meta.tjsAimAdjust ) * 0.01;
+        if ( data.meta.tjsPriority ) data.priority = Number( data.meta.tjsPriority );
+        if ( data.meta.tjsRanged ) data.ranged = true;
+        if ( data.meta.tjsDurabilityUses ) data.durability_uses = Number( data.meta.tjsDurabilityUses );
+        if ( data.meta.tjsMessageCustom ) data.auto_message = TJS_SKILL_MESSAGE_CUSTOM;
+        if ( data.meta.tjsMessageUses ) data.auto_message = TJS_SKILL_MESSAGE_USES;
+        if ( data.meta.tjsMessageAttacks ) data.auto_message = TJS_SKILL_MESSAGE_ATTACKS;
+        if ( data.meta.tjsMessageAttacksWith ) data.auto_message = TJS_SKILL_MESSAGE_ATTACKS_WITH;
+        if ( data.meta.tjsMessageCasts ) data.auto_message = TJS_SKILL_MESSAGE_CASTS;
+        if ( data.meta.tjsMessageOverride1 ) data.message1 = data.meta.tjsMessageOverride1;
+        if ( data.meta.tjsMessageOverride2 ) data.message2 = data.meta.tjsMessageOverride2;
+        if ( data.meta.tjsTpCost ) data.tpCost = Number( data.meta.tjsTpCost );
+        if ( data.meta.tjsTpGain ) data.tpGain = Number( data.meta.tjsTpGain );
+        if ( data.meta.tjsShowItemLevelInSkillCost ) data.show_level = true;
+        if ( data.meta.tjsSkillGroupStart ) data.group_start = Number( data.meta.tjsSkillGroupStart );
+
+        if ( data.meta.tjsInfo ) data.description = ( data.meta.tjsInfo );
+    }
+
+    for ( let i = 1; i < states_size; i++ ) {
+        var data = $dataStates[i];
+        data.level = 1;
+        data.description = "";
+        data.description2 = "";
+        data.multi_level_state = -1;
+        data.multi_level_state_averaged = -1;
+        data.custom_traits = {
+            to_hit_physical_add: 0,
+            to_hit_physical_multiply: 1,
+            to_hit_magical_add: 0,
+            to_hit_magical_multiply: 1,
+            magic_focus_add: 0,
+            magic_focus_multiply: 1,
+            magic_focus_debuff_rate: 1,
+            max_tactical_points_add: 0,
+            max_tactical_points_multiply: 1,
+            physical_critical_hit_rate: 0,
+            magical_critical_hit_rate: 0,
+            physical_critical_evade_rate: 0,
+            magical_critical_evade_rate: 0,
+        };
+
+        for ( const trait of data.traits ) {
+            if ( (trait.code == Game_BattlerBase.TRAIT_XPARAM) && (trait.dataId == 0) ) {
+                data.custom_traits.to_hit_physical_add += trait.value;
+                data.custom_traits.to_hit_magical_add += trait.value;
+            }
+        }
+
+        if ( !data.meta ) continue;
+        if ( data.meta.tjsLevel ) data.level = Number( data.meta.tjsLevel );
+        if ( data.meta.tjsMessage1 ) data.message1 = data.meta.tjsMessage1;
+        if ( data.meta.tjsMessage2 ) data.message2 = data.meta.tjsMessage2;
+        if ( data.meta.tjsMessage3 ) data.message3 = data.meta.tjsMessage3;
+        if ( data.meta.tjsMessage4 ) data.message4 = data.meta.tjsMessage4;
+        if ( data.meta.tjsMultiLevelState ) data.multi_level_state = Number( data.meta.tjsMultiLevelState );
+        if ( data.meta.tjsMultiLevelStateAveraged ) data.multi_level_state_averaged = Number( data.meta.tjsMultiLevelStateAveraged );
+
+        if ( data.meta.tjsTraitsToHitPhysical ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsToHitPhysical );
+            data.custom_traits.to_hit_physical_add = data_array[0] * 0.01;
+            data.custom_traits.to_hit_physical_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsToHitMagical ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsToHitMagical );
+            data.custom_traits.to_hit_magical_add = data_array[0] * 0.01;
+            data.custom_traits.to_hit_magical_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsMagicFocus ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsMagicFocus );
+            data.custom_traits.magic_focus_add = data_array[0];
+            data.custom_traits.magic_focus_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsMagicFocusDebuff ) data.custom_traits.magic_focus_debuff_rate = Number( data.meta.tjsTraitsMagicFocusDebuff ) * 0.01;
+        if ( data.meta.tjsTraitsMaxTacticalPoints ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsMaxTacticalPoints );
+            data.custom_traits.max_tactical_points_add = data_array[0];
+            data.custom_traits.max_tactical_points_multiply = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsCriticalHitRate ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsCriticalHitRate );
+            data.custom_traits.physical_critical_hit_rate = data_array[0] * 0.01;
+            data.custom_traits.magical_critical_hit_rate = data_array[1] * 0.01;
+        }
+        if ( data.meta.tjsTraitsCriticalEvadeRate ) {
+            const data_array = JSON.parse( data.meta.tjsTraitsCriticalEvadeRate );
+            data.custom_traits.physical_critical_evade_rate = data_array[0] * 0.01;
+            data.custom_traits.magical_critical_evade_rate = data_array[1] * 0.01;
+        }
+
+        if ( data.meta.tjsInfo ) data.description = ( data.meta.tjsInfo );
+        if ( data.meta.tjsInfo2 ) data.description2 = ( data.meta.tjsInfo2 );
+    }
+
+
+
+
+Blu-ray burner
+Blu-ray blank discs
+USB C to old type adapters
+USB 3.0 flash drives
+Surge protector
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
