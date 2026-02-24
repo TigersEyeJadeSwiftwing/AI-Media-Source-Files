@@ -1,0 +1,1103 @@
+Database NoteTag Window (before scroll bars appear) X: 41
+Database NoteTag Window (before scroll bars appear) Y: 8
+12345678901234567890123456789012345678901
+2
+3
+4
+5
+6
+7
+8
+
+Totals for font size 19, without face / with face: 198 / 181
+Totals for font size 19, without face / with face: 398 / 364
+1234567890----------1234567890----------1234567890----------1234567890----------1234567890----------1234567890----------1234567890----------1234567890----------1234567890----------1234567890----------1234567890----------
+----------1234567890----------1234567890----------1234567890----------1234567890----------1234567890----------1234567890----------1234567890----------1234567890----------1234567890----------1234567890----------1234567890
+0         1         2         3         4         5         6         7         8         9         10        11        12        13        14        15        16        17        18        19        20        21        
+-                                                                                                                                                                                  -><-Face         -><-No Face
+
+GEAR:
+
+(Magical Accessory)  This is a single, small and discrete earring, nothing large or too flashy, but a small shiny dot, without any part that hangs when worn.  It won't fall off or come loose very
+easily, rip out, cause scarring or injury, get knocked off or pull out by accident very easily, or get in the way.  Equipping this earring makes one partially resistant to damage from the magical
+elements of fire, ice, lightning, and acid, and also makes the individual wearing it completely immune to lasting acid burns.
+
+(Magical Accessory)  This is a single, small and discrete earring, nothing large or too flashy, but a small shiny dot, without any part that hangs when worn.  It won't fall off or come loose very
+easily, rip out, cause scarring or injury, get knocked off or pull out by accident very easily, or get in the way.  This earring boosts the IQ score and learning rate of any individual wearing it by
+large amounts, allowing them to gain EXP (Experience Points) at a much faster rate, and therefore level up quite a lot faster.  It also makes the wearer immune to the infamous magical stupefy curse
+that is known for doing the opposite of what this earring does.
+
+(Magical Accessory)  This is a single, small and discrete earring, nothing large or too flashy, but a small shiny dot, without any part that hangs when worn.  It won't fall off or come loose very
+easily, rip out, cause scarring or injury, get knocked off or pull out by accident very easily, or get in the way.  This earring will magically boost and strengthen the might of one's mind and
+spirit, as well as their physical strength and characteristics along with it, giving the one wearing it a more robust and aggressive will to live and fight.  It allows the individual equipping it
+to more easily overcome struggles of all kinds, with boosted and more decisive strength and speed, both mental and physical.  Good for both warriors as well as spellcasters alike.
+
+(Magical Accessory)  This is a single, small and discrete earring, nothing large or too flashy, but a small shiny dot, without any part that hangs when worn.  It won't fall off or come loose very
+easily, rip out, cause scarring or injury, get knocked off or pull out by accident very easily, or get in the way.  This earring will magically protect and fortify one's mind and spirit, making them
+highly resistant to mental and psychic attack, magic sleep spells, charm and confusion mental attacks, and attacks that cripple one's mind, mental, and-or spiritual strength and focus.  It provides
+resistance to unholy elemental darkness damage as well, and also increases one's magical, spiritual, and Health Point scores a bit.
+
+(Magical Accessory)  This is a single, small and discrete earring, nothing large or too flashy, but a small shiny dot, without any part that hangs when worn.  It won't fall off or come loose very
+easily, rip out, cause scarring or injury, get knocked off or pull out by accident very easily, or get in the way.  Magically enhanced to stay in place with comfort and lack of hassle, one can do
+jumping jacks, martial arts sparring and kata, swim, and more without worry when wearing it.  As far as it's enchanted benefits it provides one who wears it, it makes healing spells and potions
+heal more Health Points when equipped, and boosts physical health a bit.  It grants resistance to poison and disease, and things that sicken and weaken health in various ways.
+
+(Heavy Magic Armor Clothing) This necklace is made up of enchanted heavy-duty chain links, interlocking, flexible, and ornamental as much jewelry is, while at the same time being tough and rugged
+to the point where it would be just fine after driving a heavy battletank over it.  Being enchanted, it doesn't weigh too much, it isn't noisy, and it isn't uncomfortable to wear for long periods
+of time at all.  When worn, it increases one's maximum Health Points and defense-related ability scores in ways that protect the wearer from mundane and non-mundane damage and harm of sorts.  Being
+categorized as heavy magic armor clothing, it cannot be worn by characters of just any class, as only certain classes may equip it, primarily certain Warrior classes.
+
+(Medium Magic Armor Clothing) This necklace is a cord made of enchanted fibers, woven together to be long and durable, with magic beads along all of it.  It will increase Health Points and
+defense-related attributes of anyone who wears it.  It is categorized as medium magical armor clothing, and protects better than light-grade but not as much as heavy.  It can be worn by characters
+of various classes that can equip medium magic armor, though not those restricted to light or no armor, such as some spellcasters.  Warrior classes however are better off investing in heavy magic
+armor clothing, if they can wear such.  Results vary.  Like most magic armor clothing items, it comes in different levels, independent of being light, medium, or heavy armor.
+
+(Light Magic Armor Clothing) This necklace doesn't appear to be much more than a coiled cord of cloth, but is magically enchanted to enhance and increase Health Points and defense-related ability
+scores, protecting one who wears it.  Among magical armor clothing, it is classified as light armor, which allows characters of many classes to wear it.  It won't protect as well as more heavy-duty
+magical armor clothing items will, however, such as medium or heavy armor jewelry, but it will protect a person or being who wears it more than what they would have with nothing.
+
+SKILLS:
+
+(Shotgun) Quickly blasts away thrice in a fast frenzy, not taking the time to choose which enemies are targeted.  Doesn't penetrate armor as well as other weapons, but any damage that makes it past
+armor can be painful.  Does elemental earth damage.
+-----
+(Shotgun) Quickly blasts away twice in a fast frenzy, not taking the time to choose which enemies are targeted.  Doesn't penetrate armor as well as other weapons, but any damage that makes it past
+armor can be painful.  Does elemental earth damage.
+-----
+(Shotgun) Blasts a single enemy with buckshot spread.  Doesn't penetrate armor as well as other weapons, but any damage that makes it past armor can be painful.  Does elemental earth damage.
+
+(Shotgun) Quickly blasts away thrice in a fast frenzy, not taking the time to choose which enemies are targeted.  Doesn't penetrate armor as well as other weapons, but any damage that makes it past
+armor can be painful.  Does elemental wind damage.
+-----
+(Shotgun) Quickly blasts away twice in a fast frenzy, not taking the time to choose which enemies are targeted.  Doesn't penetrate armor as well as other weapons, but any damage that makes it past
+armor can be painful.  Does elemental wind damage.
+-----
+(Shotgun) Blasts a single enemy with buckshot spread.  Doesn't penetrate armor as well as other weapons, but any damage that makes it past armor can be painful.  Does elemental wind damage.
+
+(Shotgun) Quickly blasts away thrice in a fast frenzy, not taking the time to choose which enemies are targeted.  Doesn't penetrate armor as well as other weapons, but any damage that makes it past
+armor can be painful.  Does plain physical damage.
+-----
+(Shotgun) Quickly blasts away twice in a fast frenzy, not taking the time to choose which enemies are targeted.  Doesn't penetrate armor as well as other weapons, but any damage that makes it past
+armor can be painful.  Does plain physical damage.
+-----
+(Shotgun) Blasts a single enemy with buckshot spread.  Doesn't penetrate armor as well as other weapons, but any damage that makes it past armor can be painful.  Does plain physical damage.
+
+(Passive) This character has an uncommon genetic condition that, unlike a disease, gives positive special abilities, which include increased physical strength, dexterity, and reflexes, as well as
+an always-regenerating body that keeps itself perpetually youthful, never getting older than a teenage body, and having pure white skin as a fluke.  It runs in families yet is also found in people
+who are unrelated to each other.  Whether or not two people who have it are related or not, both will have the same facial features, and often, but not always, the same personality.  People who have
+it are usually male.  In some cases the condition also limits mental maturity to that of a teenager as well, but not always.  It is not considered a disability, legally or otherwise.
+
+WEAPONS:
+
+(Magic Staff) A spellcaster's weapon, magic staves magically fire energy bolts of various types, and don't require any MP (Magic Points) to work.  A magic staff can fire bolts that do various types
+of damage, all from the same staff.  Plain damage concussion bolts build up TP (Tactical Points), while bolts that do elemental damage will use up small amounts of TP over time.  Like other weapons,
+a magic staff will eventually wear out and break after being used enough times, at which time it is then useless and needs to be thrown out and replaced.  A magic staff can be held and used with one
+hand, allowing the other hand to be free for some other purpose, although not all spellcasters can equip and use shields, regardless of their equipped primary weapons.
+
+(Battleaxe) A long, heavy, razor-sharp two-handed axe with blades on both sides of one end, forming a classic "bat wings" shape.  This weapon takes up both hands, not allowing a shield to be
+equipped.  Compared to swords, axes are heavy and much slower, which means that when used in combat a person wielding them might not attack as quickly and can end up attacking later in a turn
+instead of earlier.  They are also less accurate, and hitting a target with them isn't as easy as it is with a sword.  Although when they do strike a target they cut deeper than a sword, getting past
+armor a little better, and doing more damage than a sword would.  Like swords, most do physical damage, and there are also enchanted ones that also do elemental damage.
+
+(Dual Hand Axes) A matched set of two hand axes, each one being a single-handed axe with a blade on one side of one end, designed for combat and cutting off body parts of people and monsters, not for
+chopping wood.  Compared to swords, axes are heavy and much slower, which means that when used in combat a person wielding them might not attack as quickly and can end up attacking later in a turn
+instead of earlier.  They are also less accurate, and hitting a target with them isn't as easy as it is with a sword.  On the other hand, when they do strike a target they cut deeper than a sword,
+getting past armor a little better, and doing a little more damage than a sword would.  Like swords, most do physical damage, and there are also enchanted ones that also do elemental damage.
+
+(Hand Axe) A small, sharp, one-handed axe that has a blade on one side.  It is designed for combat, not chopping wood, and is usually wielded in only one hand, which allows a shield to also be
+equipped.  Compared to swords, axes are heavy and much slower, which means that when used in combat a person wielding them might not attack as quickly and can end up attacking later in a turn instead
+of earlier.  They are also less accurate, and hitting a target with them isn't as easy as it is with a sword.  On the other hand, when they do strike a target they cut deeper than a sword, getting
+past armor a little better, and doing a little more damage than a sword would.  Like swords, most do physical damage, and there are also enchanted ones that do elemental damage as well.
+
+(Dual Ninjatos) A pair of ninja swords, Dual ninjatos have different special attacks compared to a single ninjato, but are otherwise two of the same weapon, in a matched pair that go together, taking
+up only one primary weapon slot.  Like a single ninjato, Dual ninjatos do physical damage, although some are enchanted to also do elemental damage of some type.  After being used a certain number of
+times, Dual ninjatos break, and need to be thrown out and replaced.
+
+(Ninjato) A ninja's sword, the ninjato is much like a katana, but straight instead of curved.  A ninjato is simpler and easier to craft in some ways than a katana, making it less expensive.  Ninjatos
+won't do as much damage in combat as a katana will, but they can be used by a ninja wielding it to perform special attacks that cripple and weaken enemies in combat.  Ninjatos are meant mostly for
+ninja class characters, with few exceptions.  They normally do only physical damage, although some ninjatos are enchanted to magically do elemental damage as well, namely elemental fire, ice,
+lightning, or acid.  After being used a certain number of times, a ninjato will have a chance of breaking and needing to be replaced, just like any other primary weapon.
+
+(Dual Katanas) A matched pair of Asian swords that are meant to go together, wielded with one in each hand.  Like a single katana, Dual Katanas can be used with special attacks that use Spirit Focus
+(MP) and/or Tactical Points.  Dual Katanas can be wielded as a primary weapon by Samurai and Kensei class characters.  Some Dual Katanas are enchanted so that they do elemental damage as well as
+physical damage to targets in combat.  After being used a certain number of times in battle, they will break and need to be thrown out and replaced.
+
+(Katana) An Asian sword that can be wielded with both one-handed and two-handed fighting styles, the katana is a very sharp weapon with a blade that is slightly curved, and has a sharp cutting side,
+which is the side the blade curves away from.  The blade is thin, and is good at making people a head shorter with a good swing, among other uses.  A lot of hard work and meticulous craftsmanship
+goes into making a katana.  It is a Samurai's weapon, and can be equipped and used by a Samurai class character, as well as The Kensei of a world.  It can be used with special attacks that use the
+Samurai's Spirit Focus (Magic Points) and/or Tactical Points.  Some katanas are enchanted to do elemental damage as well as physical.  They break after enough uses, like other weapons.
+
+(Greatsword) A long, heavy two-handed sword with a very sharp blade.  Just holding it, one who isn't familiar with it to begin with would think that they could chop a tree in half right through the
+trunk, and straight out of the other side, with one hard swing.  A Greatsword such as this one is certainly capable of doing just that sort of thing, though to people and monsters instead of trees.
+Compared to a longsword, Greatswords cut harder and deeper, getting more easily past armor and doing more damage.  When equipped, both hands are used, so equipping a shield isn't possible.  Most
+Greatswords do plain physical damage, although some are enchanted to also do elemental damage.  Like other primary weapons, Greatswords will break after being used for long enough.
+
+(Dual Longswords) A matched pair of longswords that go together, weighted and designed for dual-wielding, which is one sword in each hand.  When equipped, they disallow use of a shield, as both hands are
+being used.  Most common longswords do plain physical damage, although some are enchanted to do a combination of physical and magical elemental damage, with the magical damage being one of fire, ice,
+lightning, or acid.  Wielding a pair of longswords simultaneously as one primary weapon takes skill and expertise that only Swordmaster class characters have, therefore only Swordmasters may equip
+them.  Like other primary and backup weapons, dual longswords break and need replacement after being used enough times.
+
+(Longsword) A good sharp, strong longsword, designed to be used with one or two hands.  Good for basic hack-and-slash.  Single longswords like these allow one to also equip a shield.  Most common
+longswords do plain physical damage, although some are enchanted to do a combination of physical and magical elemental damage, with the element typically being elemental fire, ice, lightning, or
+acid.  Note that enchanted longswords that do elemental acid damage don't create lasting acid burns into following turns in combat, but instead do all of their damage right away, like most other
+swords, and mundane weaponry.  Swords can be equipped by Swordmaster and Cleric class characters.
+
+(Grenades) Magical grenades are created as they are needed, using Magic Points to make them and send them flying at targets.  Stun grenades debilitate enemies by lowering certain ability scores for
+a couple of turns, and can stun targets for about 1 to 3 turns so they cannot act.  They do no damage.  Stun grenades are equipped only by Rifleman class characters.
+
+(Grenades) Magical grenades are created as they are needed, using Magic Points to make them and send them flying at targets.  Acid Gas Grenades, upon hitting their target, explode into gas of
+elemental acid nature that is very caustic, creating lasting acid burns which continue to do more damage to their targets in following turns.  They are deadly.  After a certain number of turns, any
+induced acid burns will stop harming their target.  Although they do lasting damage for a few turns, Acid Gas grenades do less initial damage compared to other direct-damage grenades, such as
+Fragmentation grenades.  By comparison, they do comparable total damage which is spread out over time.  Acid Gas grenades can be equipped only by Rifleman class characters.
+
+(Grenades) Magical grenades are created as they are needed, using Magic Points to make them and send them flying at targets.  Fire Grenades explode into shards of material combined with heat and
+flames that shred, melt, and burn enemy targets.  They do a combination of physical and fire damage.  Magical Fire Grenades are usable exclusively by characters of the Rifleman class.  While being
+equip-able as primary weapons, they tend to wear out quickly before they break and no longer work, at which point they need to be replaced.  Very few weapons come close to lasting such a short
+amount of uses.
+
+(Grenades) Magical grenades are created as they are needed, using Magic Points to make them and send them flying at targets.  Fragmentation Grenades explode into shards of metal and other solid material,
+doing physical damage to enemies from these shards, physically ripping and shredding enemies, and actually not too much heat or thermal damage at all - They are not very fiery.  Magical
+Fragmentation Grenades are usable exclusively by characters of the Rifleman class.  While being equip-able as primary weapons, they tend to wear out quickly before they break and no longer work, at
+which point they need to be replaced.  Very few weapons come close to lasting such a short amount of uses.
+
+(Assault Rifle) Assault rifles fire in single shots, bursts, and barrages, and do heavy damage to their targets.  They can attack multiple targets at once.  Equipping an assault rifle takes two hands
+to do, and as such a character wielding an assault rifle cannot equip a shield of any sort.  Assault rifles are the most damaging weapons of all standard firearms a Rifleman can equip and use.  They
+don't spread out their fire to attack multiple targets as easily as SMGs, but they do more damage.  Other characters of non-Rifleman class cannot use Assault rifles.  Common Assault rifles do plain
+physical damage, although some variants shoot enchanted rounds that do elemental wind or elemental earth damage.  Assault rifles can only be used so many times before they break.
+
+(SMG) A quick-and-fast machine pistol that can fire many shots rapidly, in bursts as well as a classic "lead hose" type of attack.  Can attack multiple targets at once.  SMGs can easily be held and
+used with only one hand, allowing the individual wielding it to also equip a shield, or in some other way have their other hand free.  SMGs are not the most powerful firearms, but fare better in
+combat than backup weapons, such as pistols.  They are good at shooting many enemies at once.  SMGs can be used by Rifleman and Ninja character classes.  Regular SMGs do plain physical damage,
+although there are versions that are enchanted, which shoot bullets that do elemental wind or elemental earth damage.  Like many weapons, SMGS can only be used so many times before they break.
+
+(Shotgun) A basic, run-of-the-mill "boom stick" of some kind, pump-action shotguns are simplistic firearms that characters of any class can use.  While being considered a primary weapon, and thusly
+taking up a single primary weapon equipment slot, they are something of a fallback weapon that one can use if a preferred weapon specific to one's character class is broken or unavailable.  As such,
+they don't do as much damage to opponents as better weapons will, although they tend to be low-cost and commonly found in weapon stores.  Like all firearms, the damage they do doesn't vary depending
+on ability scores of the character wielding them.  Earth Shotguns are enchanted to shoot buckshot that does damage enhanced by elemental earth.  They break after enough uses, like other firearms.
+
+(Shotgun) A basic, run-of-the-mill "boom stick" of some kind, pump-action shotguns are simplistic firearms that characters of any class can use.  While being considered a primary weapon, and thusly
+taking up a single primary weapon equipment slot, they are something of a fallback weapon that one can use if a preferred weapon specific to one's character class is broken or unavailable.  As such,
+they don't do as much damage to opponents as better weapons will, although they tend to be low-cost and commonly found in weapon stores.  Like all firearms, the damage they do doesn't vary depending
+on ability scores of the character wielding them.  Wind Shotguns are enchanted to shoot buckshot that does damage enhanced by elemental wind.  They break after enough uses, like other firearms.
+
+(Shotgun) A basic, run-of-the-mill "boom stick" of some kind, pump-action shotguns are simplistic firearms that characters of any class can use.  While being considered a primary weapon, and thusly
+taking up a single primary weapon equipment slot, they are something of a fallback weapon that one can use if a preferred weapon specific to one's character class is broken or unavailable.  As such,
+they don't do as much damage to opponents as better weapons will, although they tend to be low-cost and commonly found in weapon stores.  Like all firearms, the damage they do doesn't vary depending
+on ability scores of the character wielding them.  Like all weapons, they will wear out and break after being used a certain number of times, and then need to be thrown out and replaced.
+
+(Broken Primary Weapon) Your weapon broke!  You should replace it ASAP!
+
+GAME TEXT:
+
+\$0  - Exit / Leave Shop            8  - All Shared Items (Cheat)\LB1  - Common Weapons               9  - Class Books\LB
+2  - Common Armors                10 - Bracelets\LB3  - Common Shared Items          11 - Earrings\LB
+4  - Special Weapons              12 - Rings\LB5  - Special Armors               13 - Runes\LB
+6  - All Weapons (Cheat)          14 - Surprise Cheat Gift Box\LB7  - All Armors (Cheat)           15 - Change Shop Item Level
+-----
+\$0  - Exit / Leave Shop            8  - All Shared Items (Cheat)\LB
+1  - Common Weapons               9  - Class Books\LB
+2  - Common Armors                10 - Bracelets\LB
+3  - Common Shared Items          11 - Earrings\LB
+4  - Special Weapons              12 - Rings\LB
+5  - Special Armors               13 - Runes\LB
+6  - All Weapons (Cheat)          14 - Surprise Cheat Gift Box\LB
+7  - All Armors (Cheat)           15 - Change Shop Item Level
+
+\$0  - Back to Main List1  - Swords\LB2  - Axes\LB3  - Guns\LB4  - Staves\LB5  - Backup Weapons\LB6  - Shields\LB7  - Runes
+-----
+0  - Back to Main List\LB
+1  - Swords\LB
+2  - Axes\LB
+3  - Guns\LB
+4  - Staves\LB
+5  - Backup Weapons\LB
+6  - Shields\LB
+7  - Runes
+
+\$0  - Back to Main List\LB1  - Belts         6  - Necklaces\LB2  - Wristbands    7  - Bracelets\LB
+3  - Gloves        8  - Earrings\LB4  - Socks         9  - Rings\LB5  - Shoes         10 - Miscellaneous\LB
+-----
+\$0  - Back to Main List\LB
+1  - Belts         6  - Necklaces\LB
+2  - Wristbands    7  - Bracelets\LB
+3  - Gloves        8  - Earrings\LB
+4  - Socks         9  - Rings\LB
+5  - Shoes         10 - Miscellaneous\LB
+
+\$0  - Back to Main List\LB1  - Light Pistols\LB2  - Heavy Pistols\LB3  - Minor Spellbooks\LB
+4  - Magic Wands\LB5  - Kaikens\LB6  - Whips
+-----
+\$0  - Back to Main List\LB
+1  - Light Pistols\LB
+2  - Heavy Pistols\LB
+3  - Minor Spellbooks\LB
+4  - Magic Wands\LB
+5  - Kaikens\LB
+6  - Whips
+
+\$0  - Back to Main List    8  - Hand Axes         16 - Special\LB1  - Longswords           9  - Battleaxes\LB2  - Greatswords          10 - Dual Axes\LB3  - Dual Swords          11 - Assault Rifles\LB
+4  - Katanas              12 - Grenades\LB5  - Dual Katanas         13 - SMGs\LB6  - Ninjatos             14 - Shotguns\LB7  - Dual Ninjatos        15 - Magic Staves
+-----
+\$0  - Back to Main List    8  - Hand Axes         16 - Special\LB
+1  - Longswords           9  - Battleaxes\LB
+2  - Greatswords          10 - Dual Axes\LB
+3  - Dual Swords          11 - Assault Rifles\LB
+4  - Katanas              12 - Grenades\LB
+5  - Dual Katanas         13 - SMGs\LB
+6  - Ninjatos             14 - Shotguns\LB
+7  - Dual Ninjatos        15 - Magic Staves
+
+
+\$0 - Quit\LB1 - Primary Weapons\LB2 - Backup Weapons\LB3 - Character Class Books\LB4 - Shields\LB5 - Potions, Healing, and Magic Drugs\LB6 - Enchanted Clothing\LB7 - Treasure Items
+-----
+\$0 - Quit\LB
+1 - Primary Weapons\LB
+2 - Backup Weapons\LB
+3 - Character Class Books\LB
+4 - Shields\LB
+5 - Potions, Healing, and Magic Drugs\LB
+6 - Enchanted Clothing\LB
+7 - Treasure Items
+
+Well it's not like anyone's gonna know, right?  Come on, try it.  What, you afraid you might like it or something?  Just don't tell anyone of course.
+
+Hi there.  Wanna level?  Come on, everybody's doin' it...  I can hook you up, right here in a TEST MAP, and no one else can.  What do ya say?
+
+\$Hey, how are you?  Look, do you need some quick cash?  I only hand it out here because it's a TEST MAP.  Just tell me how much you want.
+
+-- Character Creation --\\
+You need to select character classes for the six members of your adventuring party.  Also, individual characters have abilities that differ, so selecting the same class for two characters results
+in different stats.  The primary, main character is always Derrick, and once the game starts you can change characters' names.
+
+(Character 6 / 6) Chris:  A fellow villager from Klungleton, and a longtime companion of Derrick and Jack, Christopher grew up initially training to be a monk, which he later dropped out of to be a
+farmer, woodsman, and fisherman, among other things.  He has extreme mental focus and discipline with his mind and body, although he is something of a slow learner, making him level up slowly,
+despite having good endurance.  As far as magic goes, Chris is moderately magically gifted, or middle-of-the-road average when compared to other people.  He has a higher physical defense score than
+most people, and a very large bonus to maximum Health Points, from his incomplete monk training.  These bonuses apply regardless of whatever class is chosen for him to have.
+
+(Character 5 / 6) Ben:  A fellow villager to Derrick and Jack, Ben isn't very physical or athletic, but is very bright and intellectually gifted in that he finds magic more natural and intuitive
+than nearly anyone else.  Among himself and his companions, he is easily the most capable with magic.  While not as physically strong as his friends, he can still take care of himself in the forest
+near his home village of Klungleton.  By coincidence Benjamin is also a very fast learner, and levels up quickly.  Ben would obviously make a vastly superior spellcaster such as a mage, cleric, or
+wizard, yet make a poor physical warrior.  No matter what his class, he tends to get steamrolled by physical attacks from opponents in combat, so he's best being last in the party formation.
+
+(Character 4 / 6) Mike:  A close buddy of Derrick and Jack, Mike is also a resident of the Klungleton village and is very well-rounded, not being especially weak or strong in any ability or side of
+his nature.  Among other things, he is a farmer who knows how to fend for himself in the wilderness.  When it comes to fighting, he is very average in that he isn't stronger or weaker than most
+typical people at anything.  He is also moderately magically gifted.  This combination makes him average end-to-end in all ways, so he would be decent having any character class but not have any
+particular weak or strong points with any of his skills.  Note that his personality isn't necessarily boring, however, and he still has his likes and dislikes just like anyone else does.
+
+(Character 3 / 6) Ron:  A former high school and college athlete, Ron is a skilled hunter and woodsman who is very strong, physical, brawny, and tough, while not being as good at magical arts as
+most other people by nature.  He is a longtime friend of Derrick and Jack, and also a resident of Klungleton.  He makes up for lacking aptitude for magic with excellent physical health and
+endurance, making him a good warrior.  He heals quickly and can make his large, hulking, muscular body react and move quickly, and has high endurance, giving him a bonus to Tactical Points in
+combat.  He also learns faster than some, leveling up more easily.  Ronald would make a good blade-wielding fighter or warrior of some kind, but a poor spellcaster.
+
+
+ACTORS:
+
+-----
+(Character 2/6) Jack:  Born with the same genetic gift as Derrick, Jack is Derrick's younger brother by less than a year, who doesn't have his strength and speed enhanced quite as much as Derrick
+from his DNA fluke, as the genetic quirk doesn't affect all people who have it the same way.  However it does give Jack the same face and pure white skin as his brother, as well as similar healing
+abilities, no need to sleep, immunity to certain things, etc.  Independent of this genetic gift is how magically gifted one is, and in Jack's case he isn't very magically gifted, unlike Derrick.
+Jack wouldn't make a good spellcaster, but he would be a good warrior who fights with blades of some kind.
+-----
+Born with the same genetic gift as \N[1], \N[2] is \N[1]'s younger brother by less than a year, who doesn't have his strength and speed enhanced quite as much as \N[1]
+from his DNA fluke, as the genetic quirk doesn't affect all people who have it the same way.  However it does give Jack the same face and pure white skin as his brother, as well as similar healing
+abilities, no need to sleep, immunity to certain things, etc.  Independent of this genetic gift is how magically gifted one is, and in \N[2]'s case he isn't very magically gifted, unlike \N[1].
+
+
+(Character 1/6) Derrick:  Born with a genetic gift that makes his body like that of a teenager, and never grow older physically, or die of old age, Derrick is a 391 year old man from the forest village of Klungleton.  His genetic quirk also gives him superhuman strength, speed, and agility, and makes him constantly regrow any lost and damaged body parts,
+without scarring, giving him perfect pure white skin and more.  People with his DNA condition also don't require sleep, and are always awake and well-rested, and immune to magical sleep, charm, and mental attacks.  He is coincidentally magically gifted.  Overall, he will excel at having almost any character class, especially a sword-fighting or axe-wielding
+one, or perhaps a wizard or combat mage.
+-----
+(Character 1/6) Derrick:  Born with a genetic gift that makes his body like that of a teenager, and never grow older physically, or die of old age, Derrick is a 391 year old man
+from the forest village of Klungleton.  His genetic quirk also gives him superhuman strength, speed, and agility, and makes him constantly regrow any lost and damaged body parts,
+without scarring, giving him perfect pure white skin and more.  People with his DNA condition also don't require sleep, and are always awake and well-rested, and immune to magical
+sleep, charm, and mental attacks.  He is coincidentally magically gifted.  Overall, he will excel at having almost any character class, especially a sword-fighting or axe-wielding
+one, or perhaps a wizard or combat mage.
+-----
+Born with a genetic gift that makes his body forever like that of a teenager, and never grow older physically, or die of old age, \N[1] is a 391 year old man from the forest village of
+Klungleton.  His genetic quirk also gives him superhuman strength, speed, and agility, and makes him constantly regrow any lost and damaged body parts, without scarring, giving him perfect pure
+white skin and more.  People with his DNA condition also don't require sleep, and are always awake and well-rested, and immune to magical sleep, charm, and mental attacks.  He is coincidentally
+magically gifted, something which has nothing to do with his genetic gift.  His genetic condition is rare, and found in boys and men who usually come from different families that aren't related to
+each other.  In only very rare cases do any females have this condition.  Boys and men who have it typically have the same facial features and in some cases, but not all, similar personalities,
+despite usually coming from different families.  On the other people who have it often have relatives in their immediate family who have it, and are twins of each other.  Some who have it don't
+mentally develop past teenage adolescence, effectively being eternal teenagers who don't age any further, while others mature into adulthood mentally while having their bodies not physically age
+beyond that of a teenager, typically looking like a sixteen-year-old while actually being much older and grown up.  \N[1] and his younger brother \N[2] fought evil monsters that threatened
+their home village of Klungleton over a hundred years ago, and after much battle they were rewarded by their national government, the Acrydian imperial government, with recognition and a large
+fortune that they keep in their personal treasure room, enough to last them throughout their current retirement, for at least a hundred years more.
+
+
+Joe is born with the same genetic gift as Derrick, yet isn't related.  Thanks to the same DNA condition, Joe has the same face as Derrick, and the same special abilities as well, although specifics
+will vary among those with the condition, and Joe is no exception.  Joe is a farmer and a combat mage, and magically gifted more than most people are.  He is young and bright, very smart.
+
+Billy is born with the same DNA gift as Derrick, but isn't related to Derrick or Jack.  Anyways, William has the same DNA and therefore the same face as Derrick, and the same special abilities that
+are common of the genetic quirk.  Billy is a young farmer in his early 20s and a ninja by profession.  He often acts like a teenager, including teen slang and all, complementing his mohawk haircut.
+
+A fellow villager from Klungleton, and a longtime companion of Derrick and Jack, Christopher grew up initially training to be a monk, which he later dropped out of to be a farmer, woodsman, and
+fisherman, among things.  He has extreme mental focus and discipline with his mind and body, although he is something of a slow learner, making him level up slowly, despite having good endurance.
+
+A fellow villager to Derrick and Jack, Ben isn't very physical or athletic, but is very bright and intellectually gifted in that he finds magic more natural and intuitive than most.  While not as
+physically strong as his friends, he can still take care of himself in the forest near his home village of Klungleton.  Benjamin is also a fast learner, and levels up quicker than most.
+
+A close buddy of Derrick and Jack, Mike is also a resident of the village of Klungleton and is very well-rounded, not being especially weak or strong in any ability or side to his nature.  Among
+other things, he is a farmer who knows how to fend for himself in the wilderness.  When it comes to fighting, he is very average in that he isn't stronger or weaker than most at anything.
+
+A former high school and college athlete, Ron is a skilled hunter and woodsman who is very physical, brawny, and tough, while not being as good at magical arts as most other people by nature.  He is
+a longtime friend of Derrick and Jack, and also a resident of Klungleton.  He makes up for lacking aptitude for magic with excellent physical health and endurance, making him a good warrior.
+
+Born with the same genetic gift as Derrick, Jack is Derrick's younger brother by less than a year, who doesn't have his strength and speed enhanced quite as much as Derrick from his DNA fluke, as
+the genetic quirk doesn't affect all people who have it the same way.  However it does give Jack the same face and pure white skin as his brother, as well as similar healing, no need to sleep, etc.
+
+Born with a genetic gift that makes his body like that of a teenager, and never grow older physically, or die of old age, Derrick is a 391 year old man from the forest village of Klungleton.  His
+genetic quirk also gives him superhuman strength, speed, and agility, and makes him constantly regrow any lost and damaged body parts, without scarring, giving him perfect pure white skin and more.
+
+DATA:
+
+Equipment types:
+1  Weapon
+2  Weapon
+3  Backup Weapon
+4  Book
+5  Shield
+6  Belt
+7  Wristband
+8  Glove
+9  Socks
+10 Shoes
+11 Necklace
+12 Bracelet
+13 Earring
+14 Ring
+15 Accessory
+
+Armor Types:
+1  Broken
+2  Light Armor
+3  Medium Armor
+4  Heavy Armor
+5  Light Shield
+6  Medium Shield
+7  Heavy Shield
+8  Accessory
+9  Swordmaster's Book
+10 Axemaster's Book
+11 Samurai's Book
+12 Ninja's Handbook
+13 Martial Artist's Book
+14 Rifleman's Manual
+15 Cleric's Holy Book
+16 Mage's Spellbook
+17 Wizard's Book
+18 Light Pistol			// Backup weapon, any class
+19 Heavy Pistol			// Backup weapon, Rifleman class only
+20 Minor Spellbook		// Backup weapon, magic spells that use MP
+21 Magic Wand			// Backup weapon, static magic damage that uses MP
+22 Kaiken			// Backup weapon, Japanese dagger
+23 Whip				// Backup weapon
+24 Kensei's Book
+
+Weapon types:
+1  Broken
+2  Longsword
+3  Greatsword
+4  Dual Swords
+5  Katana
+6  Dual Katanas
+7  Ninjato
+8  Dual Ninjatos
+9  Hand Axe
+10 Battleaxe
+11 Dual Axes
+12 Assault Rifle
+13 Grenades
+14 SMG
+15 Shotgun
+16 Magic Staff
+
+Classes:
+1  Undetermined
+2  Swordmaster
+3  Axemaster
+4  Samurai
+5  Ninja
+6  Rifleman
+7  Cleric
+8  Combat Mage
+9  Wizard
+10 Martial Artist
+
+TJS.prototype.GetIndexForEquipmentType = function(inputText) {
+    if ( inputText === "weapon" ) return 1;
+    if ( inputText === "2nd weapon" ) return 2;
+    if ( inputText === "backup weapon" ) return 3;
+    if ( inputText === "book" ) return 4;
+    if ( inputText === "shield" ) return 5;
+    if ( inputText === "belt" ) return 6;
+    if ( inputText === "wristband" ) return 7;
+    if ( inputText === "glove" ) return 8;
+    if ( inputText === "socks" ) return 9;
+    if ( inputText === "shoes" ) return 10;
+    if ( inputText === "necklace" ) return 11;
+    if ( inputText === "bracelet" ) return 12;
+    if ( inputText === "earring" ) return 13;
+    if ( inputText === "ring" ) return 14;
+    if ( inputText === "accessory" ) return 15;
+
+    return 0;
+};
+TJS.prototype.GetNameForEquipmentType = function(inputText) {
+    if ( inputText == 1 ) return "weapon";
+    if ( inputText == 2 ) return "2nd weapon";
+    if ( inputText == 3 ) return "backup weapon";
+    if ( inputText == 4 ) return "book";
+    if ( inputText == 5 ) return "shield";
+    if ( inputText == 6 ) return "belt";
+    if ( inputText == 7 ) return "wristband";
+    if ( inputText == 8 ) return "glove";
+    if ( inputText == 9 ) return "socks";
+    if ( inputText == 10 ) return "shoes";
+    if ( inputText == 11 ) return "necklace";
+    if ( inputText == 12 ) return "bracelet";
+    if ( inputText == 13 ) return "earring";
+    if ( inputText == 14 ) return "ring";
+    if ( inputText == 15 ) return "accessory";
+
+    return "N/A";
+};
+const TJS_GEAR_WEAPON = 1;
+const TJS_GEAR_BACKUP_WEAPON = 3;
+const TJS_GEAR_BOOK = 4;
+const TJS_GEAR_SHIELD = 5;
+const TJS_GEAR_BELT = 6;
+const TJS_GEAR_WRISTBAND = 7;
+const TJS_GEAR_GLOVE = 8;
+const TJS_GEAR_SOCKS = 9;
+const TJS_GEAR_SHOES = 10;
+const TJS_GEAR_NECKLACE = 11;
+const TJS_GEAR_BRACELET = 12;
+const TJS_GEAR_EARRING = 13;
+const TJS_GEAR_RING = 14;
+const TJS_GEAR_ACCESSORY = 15;
+TJS.prototype.GetIndexForWeaponType = function(inputText) {
+    if ( inputText === "broken" ) return 1;
+    if ( inputText === "longsword" ) return 2;
+    if ( inputText === "greatsword" ) return 3;
+    if ( inputText === "dual swords" ) return 4;
+    if ( inputText === "katana" ) return 5;
+    if ( inputText === "dual katanas" ) return 6;
+    if ( inputText === "ninjato" ) return 7;
+    if ( inputText === "dual ninjatos" ) return 8;
+    if ( inputText === "hand axe" ) return 9;
+    if ( inputText === "battleaxe" ) return 10;
+    if ( inputText === "dual axes" ) return 11;
+    if ( inputText === "rifle" ) return 12;
+    if ( inputText === "grenades" ) return 13;
+    if ( inputText === "smg" ) return 14;
+    if ( inputText === "shotgun" ) return 15;
+    if ( inputText === "staff" ) return 16;
+
+    return 0;
+};
+TJS.prototype.GetNameForWeaponType = function(input_number) {
+    if ( input_number == 1 ) return "broken";
+    if ( input_number == 2 ) return "longsword";
+    if ( input_number == 3 ) return "greatsword";
+    if ( input_number == 4 ) return "dual swords";
+    if ( input_number == 5 ) return "katana";
+    if ( input_number == 6 ) return "dual katanas";
+    if ( input_number == 7 ) return "ninjato";
+    if ( input_number == 8 ) return "dual ninjatos";
+    if ( input_number == 9 ) return "hand axe";
+    if ( input_number == 10 ) return "battleaxe";
+    if ( input_number == 11 ) return "dual axes";
+    if ( input_number == 12 ) return "rifle";
+    if ( input_number == 13 ) return "grenades";
+    if ( input_number == 14 ) return "smg";
+    if ( input_number == 15 ) return "shotgun";
+    if ( input_number == 16 ) return "staff";
+
+    return "N/A";
+};
+const TJS_WEAPON_BROKEN = 1;
+const TJS_WEAPON_LONGSWORD = 2;
+const TJS_WEAPON_GREATSWORD = 3;
+const TJS_WEAPON_DUAL_SWORDS = 4;
+const TJS_WEAPON_KATANA = 5;
+const TJS_WEAPON_DUAL_KATANAS = 6;
+const TJS_WEAPON_NINJATO = 7;
+const TJS_WEAPON_DUAL_NINJATOS = 8;
+const TJS_WEAPON_AXE = 9;
+const TJS_WEAPON_BATTLEAXE = 10;
+const TJS_WEAPON_DUAL_AXES = 11;
+const TJS_WEAPON_RIFLE = 12;
+const TJS_WEAPON_GRENADES = 13;
+const TJS_WEAPON_SMG = 14;
+const TJS_WEAPON_SHOTGUN = 15;
+const TJS_WEAPON_STAFF = 16;
+TJS.prototype.GetIndexForArmorType = function(inputText) {
+    if ( inputText === "broken" ) return 1;
+    if ( inputText === "light armor" ) return 2;
+    if ( inputText === "medium armor" ) return 3;
+    if ( inputText === "heavy armor" ) return 4;
+    if ( inputText === "light shield" ) return 5;
+    if ( inputText === "medium shield" ) return 6;
+    if ( inputText === "heavy shield" ) return 7;
+    if ( inputText === "accessory" ) return 8;
+    if ( inputText === "swordmaster's book" ) return 9;
+    if ( inputText === "axemaster's book" ) return 10;
+    if ( inputText === "samurai's book" ) return 11;
+    if ( inputText === "ninja's book" ) return 12;
+    if ( inputText === "martial artist's book" ) return 13;
+    if ( inputText === "rifleman's book" ) return 14;
+    if ( inputText === "cleric's book" ) return 15;
+    if ( inputText === "mage's book" ) return 16;
+    if ( inputText === "wizard's book" ) return 17;
+    if ( inputText === "light pistol" ) return 18;
+    if ( inputText === "heavy pistol" ) return 19;
+    if ( inputText === "minor spellbook" ) return 20;
+    if ( inputText === "magic wand" ) return 21;
+    if ( inputText === "kaiken" ) return 22;
+    if ( inputText === "whip" ) return 23;
+
+    return 0;
+};
+TJS.prototype.GetNameForArmorType = function(input_number) {
+    if ( input_number == 1 ) return "broken";
+    if ( input_number == 2 ) return "light armor";
+    if ( input_number == 3 ) return "medium armor";
+    if ( input_number == 4 ) return "heavy armor";
+    if ( input_number == 5 ) return "light shield";
+    if ( input_number == 6 ) return "medium shield";
+    if ( input_number == 7 ) return "heavy shield";
+    if ( input_number == 8 ) return "accessory";
+    if ( input_number == 9 ) return "swordmaster's book";
+    if ( input_number == 10 ) return "axemaster's book";
+    if ( input_number == 11 ) return "samurai's book";
+    if ( input_number == 12 ) return "ninja's book";
+    if ( input_number == 13 ) return "martial artist's book";
+    if ( input_number == 14 ) return "rifleman's book";
+    if ( input_number == 15 ) return "cleric's book";
+    if ( input_number == 16 ) return "mage's book";
+    if ( input_number == 17 ) return "wizard's book";
+    if ( input_number == 18 ) return "light pistol";
+    if ( input_number == 19 ) return "heavy pistol";
+    if ( input_number == 20 ) return "minor spellbook";
+    if ( input_number == 21 ) return "magic wand";
+    if ( input_number == 22 ) return "kaiken";
+    if ( input_number == 23 ) return "whip";
+
+    return "N/A";
+};
+const TJS_ARMOR_BROKEN = 1;
+const TJS_ARMOR_LIGHT = 2;
+const TJS_ARMOR_MEDIUM = 3;
+const TJS_ARMOR_HEAVY = 4;
+const TJS_ARMOR_SHIELD_LIGHT = 5;
+const TJS_ARMOR_SHIELD_MEDIUM = 6;
+const TJS_ARMOR_SHIELD_HEAVY = 7;
+const TJS_ARMOR_ACCESSORY = 8;
+const TJS_ARMOR_BOOK_SWORDMASTER = 9;
+const TJS_ARMOR_BOOK_AXEMASTER = 10;
+const TJS_ARMOR_BOOK_SAMURAI = 11;
+const TJS_ARMOR_BOOK_NINJA = 12;
+const TJS_ARMOR_BOOK_MARTIAL_ARTIST = 13;
+const TJS_ARMOR_BOOK_RIFLEMAN = 14;
+const TJS_ARMOR_BOOK_CLERIC = 15;
+const TJS_ARMOR_BOOK_MAGE = 16;
+const TJS_ARMOR_BOOK_WIZARD = 17;
+const TJS_ARMOR_BOOK_KENSEI = 18;
+const TJS_ARMOR_PISTOL_LIGHT = 19;
+const TJS_ARMOR_PISTOL_HEAVY = 20;
+const TJS_ARMOR_MINOR_SPELLBOOK = 21;
+const TJS_ARMOR_MAGIC_WAND = 22;
+const TJS_ARMOR_KAIKEN = 23;
+const TJS_ARMOR_WHIP = 24;
+TJS.prototype.GetNumberOfUsesForWeaponAuto = function(inputText) {
+    if ( inputText === "broken" )           return -5000;
+    if ( inputText === "longsword" )        return 200;
+    if ( inputText === "greatsword" )       return 150;
+    if ( inputText === "dual swords" )      return 400;
+    if ( inputText === "katana" )           return 160;
+    if ( inputText === "dual katanas" )     return 320;
+    if ( inputText === "ninjato" )          return 160;
+    if ( inputText === "dual ninjatos" )    return 320;
+    if ( inputText === "hand axe" )         return 200;
+    if ( inputText === "battleaxe" )        return 160;
+    if ( inputText === "dual axes" )        return 400;
+    if ( inputText === "rifle" )            return 250;
+    if ( inputText === "grenades" )         return 150;
+    if ( inputText === "smg" )              return 525;
+    if ( inputText === "shotgun" )          return 65;
+    if ( inputText === "staff" )            return 65;
+
+    return -5000;
+};
+TJS.prototype.GetNumberOfUsesForArmorAuto = function(armor_type, equipment_type) {
+    if ( armor_type === "broken" )           return -5000;
+    if ( armor_type === "light pistol" )     return 120;
+    if ( armor_type === "heavy pistol" )     return 150;
+    if ( armor_type === "minor spellbook" )  return 30;
+    if ( armor_type === "magic wand" )       return 25;
+    if ( armor_type === "kaiken" )           return 150;
+    if ( armor_type === "whip" )             return 30;
+
+    if ( armor_type === "light shield" ) return 65;
+    if ( armor_type === "medium shield" ) return 65;
+    if ( armor_type === "heavy shield" ) return 65;
+
+    if ( equipment_type === "backup weapon" ) return -5000;
+    if ( equipment_type === "book" ) return -5000;
+    if ( equipment_type === "shield" ) return 65;
+    if ( equipment_type === "belt" ) return 32;
+    if ( equipment_type === "wristband" ) return 32;
+    if ( equipment_type === "glove" ) return 32;
+    if ( equipment_type === "socks" ) return 32;
+    if ( equipment_type === "shoes" ) return 32;
+    if ( equipment_type === "necklace" ) return 32;
+    if ( equipment_type === "bracelet" ) return 32;
+    if ( equipment_type === "earring" ) return 32;
+    if ( equipment_type === "ring" ) return 32;
+    if ( equipment_type === "accessory" ) return 32;
+
+    return -5000;
+};
+
+TJS.prototype.GetElementIdFromText = function(txt) {
+    if ( txt === 'physical' ) return 1;
+    else if ( txt === 'fire' ) return 2;
+    else if ( txt === 'ice' ) return 3;
+    else if ( txt === 'lightning' ) return 4;
+    else if ( txt === 'water' ) return 5;
+    else if ( txt === 'earth' ) return 6;
+    else if ( txt === 'wind' ) return 7;
+    else if ( txt === 'light' ) return 8;
+    else if ( txt === 'dark' ) return 9;
+    else if ( txt === 'acid' ) return 10;
+
+    else if ( txt === 'flame' ) return 2;
+    else if ( txt === 'cold' ) return 3;
+    else if ( txt === 'snow' ) return 3;
+    else if ( txt === 'thunder' ) return 4;
+    else if ( txt === 'hydro' ) return 5;
+    else if ( txt === 'air' ) return 7;
+    else if ( txt === 'lightness' ) return 8;
+    else if ( txt === 'darkness' ) return 9;
+
+    return -1;
+};
+
+
+
+TAGS
+-----
+Actors:
+tjsMaxTP
+tjsMaxTp
+tjsMaxTpModifier
+tjsInfo
+tjsToHitPhysical
+tjsToHitMagical
+tjsEquipPrimaryWeapon
+tjsEquipSecondaryWeapon
+tjsEquipBackupWeapon
+tjsEquipBook
+tjsEquipShield
+tjsEquipBelt
+tjsEquipWristband
+tjsEquipGlove
+tjsEquipSocks
+tjsEquipShoes
+tjsEquipNecklace
+tjsEquipBracelet
+tjsEquipEarring
+tjsEquipRing
+tjsEquipAccessory
+
+-----
+Enemies:
+tjsMaxTP
+tjsMaxTp
+tjsMaxTpModifier
+tjsInitTP
+tjsInitTp
+tjsInfo
+tjsToHitPhysical
+tjsToHitMagical
+tjsLevel
+tjsEnemyLevel
+tjsAttackLevel
+tjsAttackLevels
+tjsAttack0Level
+tjsAttack1Level
+tjsAttack2Level
+tjsAttack3Level
+tjsAttack4Level
+tjsAttack5Level
+tjsAttack6Level
+tjsAttack7Level
+tjsAttack8Level
+tjsAttack9Level
+
+-----
+Classes:
+tjsMaxTpModifier
+
+-----
+Items:
+tjsMaxCount
+tjsItemLevel
+tjsWeaponLevel
+tjsArmorLevel
+tjsLevel
+tjsInfo
+tjsToHitPhysical
+tjsToHitMagical
+tjsFoodPrice
+tjsLeveledByChapterPrice
+tjsWeapon
+tjsGear
+tjsArmor
+tjsBook
+tjsPriority
+
+-----
+Weapons:
+tjsWeaponDurability
+tjsMaxCount
+tjsItemLevel
+tjsWeaponLevel
+tjsBookLevel
+tjsLevel
+tjsTpMod
+tjsInfo
+tjsLeveledByChapterPrice
+tjsToHitPhysical
+tjsToHitMagical
+tjsWeapon
+tjsGear
+tjsArmor
+tjsBook
+tjsWeaponType
+tjsGroup
+tjsLeveledRates
+tjsLeveledElementRates
+tjsLeveledDebuffRates
+tjsLeveledStateRates
+tjsLeveledParamRates
+
+-----
+Armors:
+tjsWeaponDurability
+tjsMaxCount
+tjsItemLevel
+tjsWeaponLevel
+tjsBookLevel
+tjsLevel
+tjsTpMod
+tjsInfo
+tjsLeveledByChapterPrice
+tjsToHitPhysical
+tjsToHitMagical
+tjsWeapon
+tjsGear
+tjsArmor
+tjsBook
+tjsEquipType
+tjsArmorType
+tjsGroup
+tjsLeveledRates
+tjsLeveledElementRates
+tjsLeveledDebuffRates
+tjsLeveledStateRates
+tjsLeveledParamRates
+
+-----
+Skills:
+tjsWeapon
+tjsMinor
+tjsSpell
+tjsBook
+tjsShield
+tjsRing
+tjsAccessory
+tjsHalfPhysical
+tjsMessageAttacks
+tjsMessageAttacksWith
+tjsMessageCasts
+tjsMessageUses
+tjsMessageOverride1
+tjsMessageOverride2
+tjsInfo
+tjsEquipType
+tjsWeaponType
+tjsTpCost
+tjsTpGain
+tjsPriority
+tjsShowItemLevelInSkillCost
+tjsSkillGroupStart
+tjsAimAdjust
+tjsDurabilityUses
+tjsRanged
+
+-----
+Maps:
+tjsShirtOff
+tjsShirtOn
+tjsActorBig
+tjsActorSmall
+
+-----
+States:
+tjsMessage1
+tjsMessage2
+tjsMessage3
+tjsMessage4
+tjsMultiLevelStateAveraged
+tjsMultiLevelState
+tjsToHitPhysical
+tjsToHitMagical
+
+
+CUSTOM VARS
+-----
+Actors:
+tp_max
+magic_focus
+to_hit_physical
+to_hit_magical
+data.custom_traits = {
+	to_hit_physical_add: 0,
+	to_hit_physical_multiply: 1,
+	to_hit_magical_add: 0,
+	to_hit_magical_multiply: 1,
+	magic_focus_add: 0,
+	magic_focus_multiply: 1,
+	max_tactical_points_add: 0,
+	max_tactical_points_multiply: 1
+};
+
+-----
+Enemies:
+level
+profile
+tp_max
+initial_tp
+to_hit_physical
+to_hit_magical
+attack_levels[]
+data.custom_traits = {
+	to_hit_physical_add: 0,
+	to_hit_physical_multiply: 1,
+	to_hit_magical_add: 0,
+	to_hit_magical_multiply: 1,
+	magic_focus_add: 0,
+	magic_focus_multiply: 1,
+	max_tactical_points_add: 0,
+	max_tactical_points_multiply: 1
+};
+
+-----
+Classes:
+tp_max_modifier
+to_hit_physical
+to_hit_magical
+data.custom_traits = {
+	to_hit_physical_add: 0,
+	to_hit_physical_multiply: 1,
+	to_hit_magical_add: 0,
+	to_hit_magical_multiply: 1,
+	magic_focus_add: 0,
+	magic_focus_multiply: 1,
+	max_tactical_points_add: 0,
+	max_tactical_points_multiply: 1
+};
+
+-----
+Weapons:
+level
+tp_modifier
+durability
+max_count
+leveled_by_chapter_price
+weapon_type
+armor_type
+equip_type
+data.custom_traits = {
+	to_hit_physical_add: 0,
+	to_hit_physical_multiply: 1,
+	to_hit_magical_add: 0,
+	to_hit_magical_multiply: 1,
+	magic_focus_add: 0,
+	magic_focus_multiply: 1,
+	max_tactical_points_add: 0,
+	max_tactical_points_multiply: 1
+};
+
+-----
+Armors:
+level
+tp_modifier
+durability
+max_count
+leveled_by_chapter_price
+weapon_type
+armor_type
+equip_type
+data.custom_traits = {
+	to_hit_physical_add: 0,
+	to_hit_physical_multiply: 1,
+	to_hit_magical_add: 0,
+	to_hit_magical_multiply: 1,
+	magic_focus_add: 0,
+	magic_focus_multiply: 1,
+	max_tactical_points_add: 0,
+	max_tactical_points_multiply: 1
+};
+
+-----
+Items:
+level
+aim_adjust
+max_count
+leveled_by_chapter_price
+weapon_type
+armor_type
+equip_type
+half_physical
+auto_message
+
+-----
+Skills:
+aim_adjust
+weapon_type
+armor_type
+equip_type
+priority
+half_physical
+auto_message
+show_level
+group_start
+
+-----
+States:
+level
+description
+multi_level_state
+multi_level_state_averaged
+data.custom_traits = {
+	to_hit_physical_add: 0,
+	to_hit_physical_multiply: 1,
+	to_hit_magical_add: 0,
+	to_hit_magical_multiply: 1,
+	magic_focus_add: 0,
+	magic_focus_multiply: 1,
+	max_tactical_points_add: 0,
+	max_tactical_points_multiply: 1
+};
+
+
+MISC, JUMP-TOs
+-----
+Blagg
+Blarg
+Blarn
+Bleck
+Bleff
+Blenn
+Blick
+Bligg
+Blurg
+
+Custom parameters:
+0 Max Tactical Points
+1 Physical Hit Rate
+2 Magical Hit Rate
+
+Xparam order:
+0 Hit Rate		// unused
+2 Crit. Hit Rate	// percent
+6 Counter Attack	// percent
+1 Physical Evade	
+4 Magical Evade
+3 Critical Evade	// percent
+5 Magic Reflect		// percent
+7 HP Regen		// unused
+8 MP Regen		// unused
+9 TP Regen		// unused
+
+lerp(a, b, x)
+(a * (1.0-x)) + (b * x)
+(1 * (0.995)) + (10 * 0.005)
+0.995 + 0.05
+1.045
+
+(1 * (0.995)) + (16 * 0.005)
+0.995 + 0.08
+1.075
+
+HP 1800
+MP 188
+TP 600
+Atk 90
+Def  8
+Agi 30
+luk 140
+
+    Place Vehicle
+    const vehicle_id = Number(args.Vehicle_Index);
+    const map_id = Number(args.Map);
+    const x = Number(args.X);
+    const y = Number(args.Y);
+
+    Return To Vehicle
+
+
+
+
+Self
+440-759-4334
+
+algart
++1 216 631 1550
+8902 Detroit Ave, Cleveland, OH 44102, United States
+
+Pharmacy
+800-987-4916
+
+Ryzup
+1-844-485-7636
+
+REMS Admin
+877-453-1029
+
+Acreedo
+1-800-424-2618
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

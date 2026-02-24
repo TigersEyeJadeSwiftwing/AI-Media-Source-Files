@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Release" />
+	<File name="..\js\rmmz_core.js" open="1" top="0" tabpos="2" split="2" active="1" splitpos="1071" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="155215" topLine="5656" />
+			<Cursor2 position="102048" topLine="3810" />
+		</Cursor>
+	</File>
+	<File name="..\js\rmmz_windows.js" open="1" top="0" tabpos="7" split="2" active="1" splitpos="997" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="27459" topLine="1888" />
+			<Cursor2 position="59956" topLine="2020" />
+		</Cursor>
+	</File>
+	<File name="..\js\rmmz_sprites.js" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="103188" topLine="3608" />
+		</Cursor>
+	</File>
+	<File name="..\js\plugins\DGN.js" open="1" top="1" tabpos="9" split="2" active="1" splitpos="1163" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="955183" topLine="19950" />
+			<Cursor2 position="1157079" topLine="24806" />
+		</Cursor>
+	</File>
+	<File name="..\js\main.js" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2728" topLine="59" />
+		</Cursor>
+	</File>
+	<File name="..\js\rmmz_managers.js" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10412" topLine="354" />
+		</Cursor>
+	</File>
+	<File name="notes.js" open="1" top="0" tabpos="8" split="2" active="1" splitpos="1872" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="37282" topLine="1389" />
+			<Cursor2 position="160" topLine="1209" />
+		</Cursor>
+	</File>
+	<File name="..\js\rmmz_objects.js" open="1" top="0" tabpos="4" split="2" active="1" splitpos="1051" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="137738" topLine="5180" />
+			<Cursor2 position="75047" topLine="2807" />
+		</Cursor>
+	</File>
+	<File name="..\js\rmmz_scenes.js" open="1" top="0" tabpos="5" split="2" active="1" splitpos="1027" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8511" topLine="300" />
+			<Cursor2 position="73652" topLine="2503" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>
